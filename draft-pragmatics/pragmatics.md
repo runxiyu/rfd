@@ -32,7 +32,7 @@ Free Software is undoubtably a good thing for society.  However, modern computer
 
 .# Status of This Memo
 
-This document is currently in the DRAFT status.
+This document is currently in the DRAFT status.  It is not a Request for Discussions yet, but has been assigned the RFD number 1.
 
 This document describes the author's viewpoint.  This does not represent the ideas of the Free Software Foundation or any other entity.  Distribution of this memo is unlimited.
 
