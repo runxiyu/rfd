@@ -73,7 +73,8 @@ As almost all types of development can be done on most types of BSD and GNU oper
 
 The latter is more interesting, as explained above our methods of spreading awareness is limited.
 
-# Action Procedure
+
+# Current Practices
 
 Activists **MUST NOT** list such nonfree services in "Contact Information" pages on their website or similar sources, unless followed by a explanation that the purpose of the nonfree platform is to introduce users thereof onto free protocols and to eventually exterminate the nonfree platform.  Whenever these references to nonfree platforms appear, the author **MUST** present free methods of communication.  Activists **SHOULD** pragmatically use as many of the popular free protocols as possible, to ensure that oppurtunities of introductions are not lost.  In cases involving competition between free and nonfree protocols and platforms, ethical concerns (i.e. enabling talking to a new user on any ethical platform) **MUST** take precedence over technical concerns (such as disliking the XMPP protocol for its inefficent use of XML) whenever possible.
 
@@ -82,21 +83,29 @@ Communities for introducing users to Free Software on nonfree platforms **MUST**
 For example, the author created a Discord Guild called Free Software Introductions, which is one-way-puppeted to #fsi on irc.andrewyu.org, which is then one-way-puppeted to Libera.  The relay system is sort-of messed up, but it's working.  Inviting new users to it via https://discord.gg/7CYp7ntww7 is good, but as the author has made his own sacrifice already, there exists no need for other existing Free Software activists to join and use it instead of IRC.
 
 # Technical Limitations
+
 The old and centralized nature of IRC, the insane 3PID recommendation of Matrix, the bad routing and efficency of XMPP, and the lack of documentation on PSYC, has led us to develop a new protocol, Internet Delay Chat[@!IDC], which aims to be free, modern (i.e. support for channel groups and shared permission sets, non-text data with MIME types), sane (i.e. TCP, UDP and SCTP-based, instead of HTTP POST APIs) and simple.
 
 
 # Conclusion
 
+The Free Software Community is constantly evolving; the majority of computer users haven't heard of us.  While we improve our software, it is important that our ideology and philosophy is sent out of our internal circle.  This demonstrates the neccessity for momentarily sacrificing our own principle for the greater good while minimizing the harms of such pragmatic usage of nonfree software.
+
 # FSF Considerations
+
+Any ideas on this one?
 
 {backmatter}
 
 {numbered="false"}
 # Acknowledgements
 
+iShareFreedom's absolute standpoint in #fsf that we can spread awareness effectively through free methods exclusively has led to this RFD.
 
 {numbered="false"}
 # Contributors
+
+Many thanks to Leah Rowe?
 
 
 <reference anchor="RFC2813" target="https://www.rfc-editor.org/rfc/rfc2813.txt">

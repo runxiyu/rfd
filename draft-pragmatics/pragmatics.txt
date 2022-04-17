@@ -30,10 +30,10 @@ Table of Contents
 
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   1
    2.  Justification . . . . . . . . . . . . . . . . . . . . . . . .   2
-   3.  Action Procedure  . . . . . . . . . . . . . . . . . . . . . .   4
+   3.  Current Practices . . . . . . . . . . . . . . . . . . . . . .   4
    4.  Technical Limitations . . . . . . . . . . . . . . . . . . . .   4
-   5.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   4
-   6.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   4
+   5.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   5
+   6.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   5
    7.  Normative References  . . . . . . . . . . . . . . . . . . . .   5
    Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   5
    Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   5
@@ -170,7 +170,7 @@ Yu                            Informational                     [Page 3]
 RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
 
-3.  Action Procedure
+3.  Current Practices
 
    Activists MUST NOT list such nonfree services in "Contact
    Information" pages on their website or similar sources, unless
@@ -214,9 +214,9 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
    types), sane (i.e.  TCP, UDP and SCTP-based, instead of HTTP POST
    APIs) and simple.
 
-5.  Conclusion
 
-6.  FSF Considerations
+
+
 
 
 
@@ -225,6 +225,19 @@ Yu                            Informational                     [Page 4]
 
 RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
+
+5.  Conclusion
+
+   The Free Software Community is constantly evolving; the majority of
+   computer users haven't heard of us.  While we improve our software,
+   it is important that our ideology and philosophy is sent out of our
+   internal circle.  This demonstrates the neccessity for momentarily
+   sacrificing our own principle for the greater good while minimizing
+   the harms of such pragmatic usage of nonfree software.
+
+6.  FSF Considerations
+
+   Any ideas on this one?
 
 7.  Normative References
 
@@ -237,7 +250,13 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
 Acknowledgements
 
+   iShareFreedom's absolute standpoint in #fsf that we can spread
+   awareness effectively through free methods exclusively has led to
+   this RFD.
+
 Contributors
+
+   Many thanks to Leah Rowe?
 
 Author's Address
 
@@ -245,25 +264,6 @@ Author's Address
    The 2nd School Aff. to FDU
    Email: andrew@andrewyu.org
    URI:   https://www.andrewyu.org/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
