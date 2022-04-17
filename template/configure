@@ -57,9 +57,9 @@ EOF
 
 (sed 's/RFDN/'"$RFDN"'/g' << EOF
 6
-s/^DOTS/RFD RFDN/
+s/^DOTS/Request 'for' Discussions: RFDN/
 wq
 EOF
-) | sed 's/DOTS/'"$(printf 'RFD %s' "$RFDN" | sed 's/././g')"'/g' > Edfile
+) | sed 's/DOTS/'"$(printf 'Request for Dischssions: %s' "$RFDN" | sed 's/././g')"'/g' > Edfile
 
 printf "$0: Finished generating Makefile and Edfile.\n$0: You MUST now edit $FILENAME.md and replace the <++>s.\n" > /dev/stderr
