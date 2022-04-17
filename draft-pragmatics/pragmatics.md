@@ -84,7 +84,7 @@ For example, the author created a Discord Guild called Free Software Introductio
 
 # Technical Limitations
 
-The old and centralized nature of IRC, the insane 3PID recommendation of Matrix, the bad routing and efficency of XMPP, and the lack of documentation on PSYC, has led us to develop a new protocol, Internet Delay Chat[@!IDC], which aims to be free, modern (i.e. support for channel groups and shared permission sets, non-text data with MIME types), sane (i.e. TCP, UDP and SCTP-based, instead of HTTP POST APIs) and simple.
+The old and centralized nature of IRC, the insane 3PID recommendation of Matrix, the bad routing and efficency of XMPP, and the lack of documentation on PSYC, has led us to develop a new protocol, Internet Delay Chat[@IDC], which aims to be free, modern (i.e. support for channel groups and shared permission sets, non-text data with MIME types), sane (i.e. TCP, UDP and SCTP-based, instead of HTTP POST APIs) and simple.
 
 
 # Conclusion

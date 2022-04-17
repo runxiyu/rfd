@@ -35,6 +35,7 @@ Table of Contents
    5.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   5
    6.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   5
    7.  Normative References  . . . . . . . . . . . . . . . . . . . .   5
+   8.  Informative References  . . . . . . . . . . . . . . . . . . .   5
    Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   5
    Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   5
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
@@ -47,7 +48,6 @@ Table of Contents
    the proprietary dystopia created by mostly multibillion-dollar
    technology coorporations, our methods of communicating with the
    masses are ineffective.
-
 
 
 
@@ -241,12 +241,14 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
 7.  Normative References
 
-   [IDC]      Yu, A., "Internet Delay Chat", April 2022,
-              <https://git.andrewyu.org/internet-delay-chat>.
-
    [RMSGP]    Stallman, R., "Is It Ever a Good Thing to Use a Nonfree
               Program?", September 2013, <http://www.gnu.org/philosophy/
               is-ever-good-use-nonfree-program.en.html>.
+
+8.  Informative References
+
+   [IDC]      Yu, A., "Internet Delay Chat", April 2022,
+              <https://git.andrewyu.org/internet-delay-chat>.
 
 Acknowledgements
 
@@ -264,8 +266,6 @@ Author's Address
    The 2nd School Aff. to FDU
    Email: andrew@andrewyu.org
    URI:   https://www.andrewyu.org/
-
-
 
 
 

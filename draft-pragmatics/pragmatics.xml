@@ -73,19 +73,6 @@
 
 <back>
 <references><name>Normative References</name>
-<reference anchor="IDC" target="https://git.andrewyu.org/internet-delay-chat">
-  <front>
-    <title>Internet Delay Chat</title>
-    <author fullname="Andrew Yu" initials="A." surname="Yu">
-      <organization>The Second School Affiliated to Fudan University</organization>
-      <address>
-        <email>andrew@andrewyu.org</email>
-        <uri>https://www.andrewyu.org/</uri>
-      </address>
-    </author>
-    <date year="2022" month="April"></date>
-  </front>
-</reference>
 <reference anchor="RMSGP" target="http://www.gnu.org/philosophy/is-ever-good-use-nonfree-program.en.html">
   <front>
     <title>Is It Ever a Good Thing to Use a Nonfree Program?</title>
@@ -97,6 +84,21 @@
       </address>
     </author>
     <date year="2013" month="September"></date>
+  </front>
+</reference>
+</references>
+<references><name>Informative References</name>
+<reference anchor="IDC" target="https://git.andrewyu.org/internet-delay-chat">
+  <front>
+    <title>Internet Delay Chat</title>
+    <author fullname="Andrew Yu" initials="A." surname="Yu">
+      <organization>The Second School Affiliated to Fudan University</organization>
+      <address>
+        <email>andrew@andrewyu.org</email>
+        <uri>https://www.andrewyu.org/</uri>
+      </address>
+    </author>
+    <date year="2022" month="April"></date>
   </front>
 </reference>
 </references>
