@@ -14,8 +14,9 @@ Abstract
 
    Free Software is undoubtably a good thing for society.  However,
    modern computer users are stuck in the proprietary "ecosystem" for
-   historical reasons.  This document describes the author's viewpoint
-   of using proprietary platforms to spread the ideas of Free Software.
+   historical reasons.  This document describes the justificstion and
+   best current practices of using proprietary platforms to spread the
+   ideas of Free Software.
 
 Status of This Memo
 
@@ -32,10 +33,11 @@ Table of Contents
    2.  Justification . . . . . . . . . . . . . . . . . . . . . . . .   2
    3.  Current Practices . . . . . . . . . . . . . . . . . . . . . .   4
    4.  Technical Limitations . . . . . . . . . . . . . . . . . . . .   4
-   5.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   5
-   6.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   5
-   7.  Normative References  . . . . . . . . . . . . . . . . . . . .   5
-   8.  Informative References  . . . . . . . . . . . . . . . . . . .   5
+   5.  Reputation  . . . . . . . . . . . . . . . . . . . . . . . . .   5
+   6.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   5
+   7.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   5
+   8.  Normative References  . . . . . . . . . . . . . . . . . . . .   5
+   9.  Informative References  . . . . . . . . . . . . . . . . . . .   5
    Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   5
    Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   5
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
@@ -51,19 +53,17 @@ Table of Contents
 
 
 
-
-
 Yu                            Informational                     [Page 1]
 
 RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
 
-   In February 2022, the author decided to adjust his dogma, and
-   permitted limited usage of nonfree chat platforms to hopefully spread
-   our ideas to the general public.  This was attempted by registering a
-   Discord account, creating a Guild called "Free Software
-   Introductions", and setting up a basic Discord-to-IRC relay to #fsi
-   on both irc.andrewyu.org and irc.libera.chat.
+   In February 2022, the author decided to permit limited usage of
+   nonfree chat platforms to hopefully spread our ideas to the general
+   public.  This was attempted by registering a Discord account,
+   creating a Guild called "Free Software Introductions", and setting up
+   a basic Discord-to-IRC relay to #fsi on both irc.andrewyu.org and
+   irc.libera.chat.
 
    One of the communities that he knows about, the VF-Technic Minetest
    community, primarily uses Discord as a means of communication by
@@ -77,9 +77,6 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
    users.
 
 2.  Justification
-
-   Two users is definitely few, but it sets a start and an example for
-   how freedom can be spread.
 
    There are numerous free replacements to proprietary services such as
    Discord, such as Internet Relay Chat, the Extensible Messaging and
@@ -95,17 +92,20 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
    any network, it is exceptionally easy to introduce a user into the
    #fsf channel for discussions with people supporting Free Software.
    Introducing ignorant users on these protocols and platforms are a
-   day-to-day simple task.
+   day-to-day simple task.  Furthermore, the amount of users we can
+   reach on these protocols are rather limiting.  Libera has around
+   forty thousand users according to the USERS command, and considering
+   the fact that around 90% of these people aren't ignorant, there isn't
+   much we can do.
 
-   Furthermore, the amount of users we can reach on these protocols are
-   rather limiting.  Libera has around forty thousand users according to
-   the USERS command, and considering the fact that around 90% of these
-   people aren't ignorant, there isn't much we can do.
 
-   Matrix users, in particular users of the matrix.org homeserver,
-   typically know but don't completely understand Free Software.  Rather
-   than using Matrix IDs to identify users, the Matrix specification
-   specifies that third-party platform identities, such as email and
+
+
+
+
+
+
+
 
 
 
@@ -114,6 +114,10 @@ Yu                            Informational                     [Page 2]
 RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
 
+   Matrix users, in particular users of the matrix.org homeserver,
+   typically know but don't completely understand Free Software.  Rather
+   than using Matrix IDs to identify users, the Matrix specification
+   specifies that third-party platform identities, such as email and
    GitHub, are how users should be referenced both internally by servers
    and shown to other users.  This is obviously an increadibly foolish
    idea, especially considering the use of centralized identity servers
@@ -127,18 +131,18 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
    implies that servers fully trust each other and are expected to not
    send damaging commands, which in turn implies full trust between
    server operators, no federation, and political centralization.  The
-   privacy policy and network policy of Libera Chat are in the author's
-   opinion non-intrusive, therefore the use of which is acceptable and
-   is promoted by the FSF.  (Obviously, most methods of using IRC do not
-   involve nonfree software.)
+   privacy policy and network policy of Libera Chat are non-intrusive,
+   therefore the use of which is acceptable and is promoted by the FSF.
+   (Obviously, most methods of using IRC do not involve nonfree
+   software.)
 
-   Nevertheless, those that have never touched Free Software are often
-   on giant proprietary platforms, and take these as universal methods
-   of communication.  Many people go months before checking their
-   mailbox (physical or electronic), refuse to use XMPP or IRC for its
-   age.
+   We currently find it hard to continue spreading basic knowledge among
+   the masses through free communication protocols.
 
-   An alternative protocol, Internet Delay Chat, is being developed.
+   Those that have never touched Free Software are often on giant
+   proprietary platforms, and take these as universal methods of
+   communication.  Many people go months before checking their mailbox
+   (physical or electronic), refuse to use XMPP or IRC for its age.
 
    There is one special case where using some nonfree software, and even
    urging others to use it, can be a positive thing.  That's when the
@@ -153,15 +157,11 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
    As almost all types of development can be done on most types of BSD
    and GNU operating systems, the author hasn't found any software that
-   fit this category.  Extending the interpretation allos for using
+   fit this category.  Extending the interpretation allows for using
    nonfree software's behavior as a reference in Free Software
    development, though an arguable programming practice, may help the
    community to progress by understanding common features that users of
    nonfree services use.
-
-   The latter is more interesting, as explained above our methods of
-   spreading awareness is limited.
-
 
 
 
@@ -169,6 +169,11 @@ Yu                            Informational                     [Page 3]
 
 RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
+
+   The latter is more interesting, as explained above our methods of
+   spreading awareness is limited.  Conservative usage of nonfree
+   platforms may bring us more users, and chances for more of the
+   general public to be enlightened.
 
 3.  Current Practices
 
@@ -216,17 +221,18 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
 
 
-
-
-
-
-
 Yu                            Informational                     [Page 4]
 
 RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
 
-5.  Conclusion
+5.  Reputation
+
+   Outsiders may point at these actions as cringeworthy because we are
+   depending on things we are against to achieve our goals.  In this
+   situation, showing them this RFD should suffice.
+
+6.  Conclusion
 
    The Free Software Community is constantly evolving; the majority of
    computer users haven't heard of us.  While we improve our software,
@@ -235,17 +241,18 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
    sacrificing our own principle for the greater good while minimizing
    the harms of such pragmatic usage of nonfree software.
 
-6.  FSF Considerations
+7.  FSF Considerations
 
-   Any ideas on this one?
+   It is RECOMMENDED that the FSF understands the use of nonfree
+   software in these situations and acknowledge its pragmatic use.
 
-7.  Normative References
+8.  Normative References
 
    [RMSGP]    Stallman, R., "Is It Ever a Good Thing to Use a Nonfree
               Program?", September 2013, <http://www.gnu.org/philosophy/
               is-ever-good-use-nonfree-program.en.html>.
 
-8.  Informative References
+9.  Informative References
 
    [IDC]      Yu, A., "Internet Delay Chat", April 2022,
               <https://git.andrewyu.org/internet-delay-chat>.
@@ -266,13 +273,6 @@ Author's Address
    The 2nd School Aff. to FDU
    Email: andrew@andrewyu.org
    URI:   https://www.andrewyu.org/
-
-
-
-
-
-
-
 
 
 
