@@ -1,0 +1,2 @@
+This is the upcoming utility set to typeset RFDs.  The IETF xml2rfc
+package works, but is too much bloat for our purposes.
