@@ -12,6 +12,9 @@ Once a draft becomes a RFD by a supermajority (0.6) in the board, the
 RFD editor assigns a RFD number, gives final touches to the style, and
 the draft becomes an RFD.
 
+As of now, the Libre Informational Board only has Andrew.  We
+desperately need more like-minded people for a more unbiased process.
+
 RFDs are immutable, except for the "Updated By" and "Obsoleted By"
 lines in the top left of the document and an "ERRATA EXISTS" message.
 Minor problems must be corrected through publishing an ERRATA file and
