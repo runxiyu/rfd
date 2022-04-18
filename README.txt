@@ -34,3 +34,5 @@ RFDs stand for Request for Discussions.  Community discussions are very
 welcome.  You may submit your ideas to us via the rfd AT andrewyu DOT
 org mailing list.  Further discussions with a wider audience, such as in
 various IRC channels and mailing lists, are encouraged.
+The #LibreSpeech IRC channel on irc.andrewyu.org and libera.chat may
+be used for this purpose.
