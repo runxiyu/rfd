@@ -41,13 +41,12 @@ mv TEMPLATE.md "$FILENAME".md
 sed -i 's/RFDN/'"$RFDN"'/g' "$FILENAME".md
 
 (sed 's/FILENAME/'"$FILENAME"'/g' << EOF
-update: FILENAME.txt FILENAME.7
+git: update
 	git add .
 	git commit
 	git push
+update: FILENAME.txt
 
-FILENAME.7: FILENAME.md
-	mmark --man FILENAME.md > FILENAME.7
 FILENAME.txt: FILENAME.xml
 	xml2rfc --text FILENAME.xml
 	sed -i -e '/\f/{n;s/^DOTS/RFD RFDN/}' FILENAME.txt
@@ -64,4 +63,4 @@ wq
 EOF
 ) | sed 's/DOTS/'"$(printf 'Request for Dischssions: %s' "$RFDN" | sed 's/././g')"'/g' > Edfile
 
-printf "$0: Finished generating Makefile and Edfile.\n$0: You MUST now edit $FILENAME.md and replace the <++>s.\n" > /dev/stderr
+printf "$0: Finished generating Makefile and Edfile.\n$0: You may run \`make' to compile." > /dev/stderr
