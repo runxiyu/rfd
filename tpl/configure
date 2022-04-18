@@ -58,7 +58,7 @@ EOF
 
 (sed 's/RFDN/'"$RFDN"'/g' << EOF
 6
-s/^DOTS/Request 'for' Discussions: RFDN/
+s/^DOTS/Request for Discussions: RFDN/
 wq
 EOF
 ) | sed 's/DOTS/'"$(printf 'Request for Dischssions: %s' "$RFDN" | sed 's/././g')"'/g' > Edfile

@@ -26,15 +26,16 @@ organization = "The 2nd School Aff. to FDU"
   uri = "https://www.andrewyu.org/"
 %%%
 
+.# Abstract
+
+This document describes nothing.
+
 .# Status of This Memo
 
 This document is currently in the DRAFT status.
 
 This document describes the author's viewpoint.  Distribution of this memo is unlimited.
 
-.# Abstract
-
-This document describes nothing.
 
 {mainmatter}
 
