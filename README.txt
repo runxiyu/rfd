@@ -18,6 +18,7 @@ the draft becomes an RFD.
 
 As of now, the Libre Informational Board only has Andrew.  We
 desperately need more like-minded people for a more unbiased process.
+Please talk to us via the discussion channels (below)!
 
 RFDs are immutable, except for the "Updated By" and "Obsoleted By"
 lines in the top left of the document and an "ERRATA EXISTS" message.
