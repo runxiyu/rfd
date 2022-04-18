@@ -32,15 +32,15 @@ Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   1
    2.  Justification . . . . . . . . . . . . . . . . . . . . . . . .   2
    3.  Current Practices . . . . . . . . . . . . . . . . . . . . . .   4
-   4.  Technical Limitations . . . . . . . . . . . . . . . . . . . .   4
+   4.  Technical Limitations . . . . . . . . . . . . . . . . . . . .   5
    5.  Reputation  . . . . . . . . . . . . . . . . . . . . . . . . .   5
    6.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   5
    7.  FSF Considerations  . . . . . . . . . . . . . . . . . . . . .   5
    8.  Normative References  . . . . . . . . . . . . . . . . . . . .   5
    9.  Informative References  . . . . . . . . . . . . . . . . . . .   5
    Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   5
-   Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   5
-   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
+   Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   6
+   Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   6
 
 1.  Introduction
 
@@ -198,7 +198,17 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
    Software community refusing to use nonfree platforms in any way to
    participate.  Usages of nonfree platforms, besides part of the user-
    introduction process that must happen on the nonfree platform, SHOULD
-   be avoided.
+   be avoided.  Free clients, if available, SHOULD be used, although
+   many times usage is technically cumbersome.
+
+   When both (all) sides of the communication are happy using a free
+   protocol, proprietary platforms MUST NOT be used.
+
+   During communications with users of nonfree platforms, activists
+   SHOULD ask them what features of the nonfree platforms are attractive
+   to the user, besides having more users.  This allows the community to
+   take usage by the general population into account when developing new
+   software or specifications.
 
    For example, the author created a Discord Guild called Free Software
    Introductions, which is one-way-puppeted to #fsi on irc.andrewyu.org,
@@ -209,6 +219,13 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
    exists no need for other existing Free Software activists to join and
    use it instead of IRC.
 
+
+
+Yu                            Informational                     [Page 4]
+
+RFD 1               Pragmatic Use of Nonfree Software         April 2022
+
+
 4.  Technical Limitations
 
    The old and centralized nature of IRC, the insane 3PID recommendation
@@ -218,13 +235,6 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
    channel groups and shared permission sets, non-text data with MIME
    types), sane (i.e.  TCP, UDP and SCTP-based, instead of HTTP POST
    APIs) and simple.
-
-
-
-Yu                            Informational                     [Page 4]
-
-RFD 1               Pragmatic Use of Nonfree Software         April 2022
-
 
 5.  Reputation
 
@@ -263,6 +273,15 @@ Acknowledgements
    awareness effectively through free methods exclusively has led to
    this RFD.
 
+
+
+
+
+Yu                            Informational                     [Page 5]
+
+RFD 1               Pragmatic Use of Nonfree Software         April 2022
+
+
 Contributors
 
    Many thanks to Leah Rowe?
@@ -277,4 +296,41 @@ Author's Address
 
 
 
-Yu                            Informational                     [Page 5]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Yu                            Informational                     [Page 6]
