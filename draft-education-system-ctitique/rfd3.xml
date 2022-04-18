@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- name="GENERATOR" content="github.com/mmarkdown/mmark Mmark Markdown Processor - mmark.miek.nl" -->
+<rfc version="3" ipr="none" docName="Request for Discussions 3" submissionType="independent" category="info" xml:lang="en" xmlns:xi="http://www.w3.org/2001/XInclude" indexInclude="true">
+
+<front>
+<title abbrev="A Critique of the Education System">A Critique of the Education System</title><seriesInfo value="Request for Discussions 3" stream="independent" status="informational" name="Internet-Draft"></seriesInfo>
+<author initials="A." surname="Yu" fullname="Andrew Yu"><organization>The 2nd School Aff. to FDU</organization><address><postal><street></street>
+</postal><email>andrew@andrewyu.org</email>
+<uri>https://www.andrewyu.org/</uri>
+</address></author><date/>
+<area>Education</area>
+<workgroup>Libre Education</workgroup>
+<keyword>education</keyword>
+
+<abstract>
+<t>The modern education system hasn't changed much since the industrial era, where a successful worker's job is to follow instructions precisely.  Modern society values creativity and thoughtfulness, but our education system hasn't changed, implanting dependence and submission to tyranny.</t>
+</abstract>
+
+<note><name>Status of This Memo</name>
+<t>This document is currently in the DRAFT status.</t>
+<t>This document describes the author's viewpoint.  Distribution of this memo is unlimited.</t>
+</note>
+
+</front>
+
+<middle>
+
+<section anchor="introduction"><name>Introduction</name>
+<t>To be written.</t>
+</section>
+
+<section anchor="conclusion"><name>Conclusion</name>
+<t>To be written.</t>
+</section>
+
+<section anchor="government-considerations"><name>Government Considerations</name>
+<t>To be written.</t>
+</section>
+
+</middle>
+
+<back>
+
+<section anchor="acknowledgements" numbered="false"><name>Acknowledgements</name>
+<t>To be written.</t>
+</section>
+
+<section anchor="contributors" numbered="false"><name>Contributors</name>
+<t>To be written.</t>
+</section>
+
+</back>
+
+</rfc>
