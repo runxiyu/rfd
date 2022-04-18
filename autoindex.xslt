@@ -49,22 +49,17 @@
   }
   th {
         background: #000;
-        background: -webkit-linear-gradient(top, #444, #000);
-        background: -moz-linear-gradient(top, #444, #000);
-        background: -ms-linear-gradient(top, #444, #000);
-        background: -o-linear-gradient(top, #444, #000);
-        background: linear-gradient(top, #444, #000);
         font-size: 14px;
         line-height: 24px;
-        border: none;
+        border: solid black 2px;
         text-align: left;
         color: #fff;
   }
   tr {
-        background: rgba(255, 255, 255, 0.8);
+        background: white;
   }
   tr:hover {
-        background: rgba(255, 255, 255, 0.5);
+        background: gray;
   }
   .f9 {
         font-size: 9px;
@@ -117,9 +112,9 @@
      <td></td>
      <td></td>
    </tr>
-    <!--xsl:for-each select="directory"-->
+    <xsl:for-each select="directory">
       <xsl:sort select="name"/>
-    <!--/xsl:for-each-->
+    </xsl:for-each>
     <xsl:apply-templates/>
     </table>
     </center></td></tr></table>
