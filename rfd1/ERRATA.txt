@@ -1,7 +1,10 @@
 Section 3 says:
 
-Inviting new users to it via https://discord.gg/7CYp7ntww7 (https://discord.gg/7CYp7ntww7) is good,
+Inviting new users to it via https://discord.gg/7CYp7ntww7
+(https://discord.gg/7CYp7ntww7) is good,
 
 It should say:
 
-Inviting new users to such Guilds (https://discord.gg/7CYp7ntww7) when perse refuses to or is ignorant on how to use IRC helps conveying our ideas to users,
+Inviting new users to such Guilds (https://discord.gg/7CYp7ntww7) when
+perse refuses to or is ignorant on how to use IRC helps conveying our
+ideas to users,
