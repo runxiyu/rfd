@@ -29,7 +29,8 @@
    <style type="text/css">
   body {
         margin: 5px;
-        background-color: #ddd;
+        /* background-color: #ddd; */
+        font-family: monospace;
   }
   table {
         font-size: 15px;
@@ -97,7 +98,7 @@
    <center>
     <xsl:apply-templates/>
    </center>
-   <div style="margin-left:10px;font-size:9pt">:.end</div>
+   <div style="margin-left:10px;font-size:9pt">End of file list.</div>
    <br/>
  </body>
  </html>
@@ -116,9 +117,9 @@
      <td></td>
      <td></td>
    </tr>
-    <xsl:for-each select="directory">
+    <!--xsl:for-each select="directory"-->
       <xsl:sort select="name"/>
-    </xsl:for-each>
+    <!--/xsl:for-each-->
     <xsl:apply-templates/>
     </table>
     </center></td></tr></table>
