@@ -28,7 +28,7 @@ organization = "The 2nd School Aff. to FDU"
 
 .# Abstract
 
-Free Software is undoubtably a good thing for society.  However, modern computer users are stuck in the proprietary "ecosystem" for historical reasons.  This document describes the justificstion and best current practices of using proprietary platforms to spread the ideas of Free Software.
+Free Software is undoubtably a good thing for society.  However, modern computer users are stuck in the proprietary "ecosystem" for historical reasons.  This document describes the justification and best current practices of using proprietary platforms to spread the ideas of Free Software.
 
 .# Status of This Memo
 
@@ -44,7 +44,7 @@ Readers of this memo probably understand the ideals of the Free Software Movemen
 
 In February 2022, the author decided to permit limited usage of nonfree chat platforms to hopefully spread our ideas to the general public.  This was attempted by registering a Discord account, creating a Guild called "Free Software Introductions", and setting up a basic Discord-to-IRC relay to #fsi on both irc.andrewyu.org and irc.libera.chat.
 
-One of the communities that he knows about, the VF-Technic Minetest community, primarily uses Discord as a means of communication by plays not in-game.  As the users inside are Minetest players, a Free Software voxel sandbox game, similar to but much more flexible and freedom-respecting than Minecraft, it is believed that the users have some contact with Free Software, although they might not understand the freedom part of the issue, i.e. they might be thinking in terms of "open source" instead.  After sharing the invite link in the VF-Technic Guild, some people joined, and we've partially converted two users.
+One of the communities that he knows about, the VF-Technic Minetest community, primarily uses Discord as a means of communication by players not in-game.  As the users inside are Minetest players, a Free Software voxel sandbox game, similar to but much more flexible and freedom-respecting than Minecraft, it is believed that the users have some contact with Free Software, although they might not understand the freedom part of the issue, i.e. they might be thinking in terms of "open source" instead, and do not understand the harms of nonfree JavaScript and services like Discord.  After sharing the invite link in the VF-Technic Guild, some people joined, and we've partially converted two users.
 
 # Justification
 

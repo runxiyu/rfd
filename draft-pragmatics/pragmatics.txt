@@ -14,7 +14,7 @@ Abstract
 
    Free Software is undoubtably a good thing for society.  However,
    modern computer users are stuck in the proprietary "ecosystem" for
-   historical reasons.  This document describes the justificstion and
+   historical reasons.  This document describes the justification and
    best current practices of using proprietary platforms to spread the
    ideas of Free Software.
 
@@ -67,14 +67,15 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
    One of the communities that he knows about, the VF-Technic Minetest
    community, primarily uses Discord as a means of communication by
-   plays not in-game.  As the users inside are Minetest players, a Free
-   Software voxel sandbox game, similar to but much more flexible and
-   freedom-respecting than Minecraft, it is believed that the users have
-   some contact with Free Software, although they might not understand
-   the freedom part of the issue, i.e. they might be thinking in terms
-   of "open source" instead.  After sharing the invite link in the VF-
-   Technic Guild, some people joined, and we've partially converted two
-   users.
+   players not in-game.  As the users inside are Minetest players, a
+   Free Software voxel sandbox game, similar to but much more flexible
+   and freedom-respecting than Minecraft, it is believed that the users
+   have some contact with Free Software, although they might not
+   understand the freedom part of the issue, i.e. they might be thinking
+   in terms of "open source" instead, and do not understand the harms of
+   nonfree JavaScript and services like Discord.  After sharing the
+   invite link in the VF-Technic Guild, some people joined, and we've
+   partially converted two users.
 
 2.  Justification
 
@@ -97,7 +98,6 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
    forty thousand users according to the LUSERS command, and considering
    the fact that around 90% of these people aren't ignorant, there isn't
    much we can do.
-
 
 
 
