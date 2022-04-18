@@ -189,7 +189,7 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
    free and nonfree protocols and platforms, ethical concerns (i.e.
    enabling talking to a new user on any ethical platform) MUST take
    precedence over technical concerns (such as disliking the XMPP
-   protocol for its inefficent use of XML) whenever possible.
+   protocol for its inefficent use of XML).
 
    Communities for introducing users to Free Software on nonfree
    platforms MUST be bridged to a free protocol in some obvious way, in
