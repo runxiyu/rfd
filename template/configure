@@ -27,6 +27,8 @@
 # ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
 
+printf "$0: ONLY RUN THIS SCRIPT WHEN THE DRAFT IS READY AND A NUMBER HAS BEEN ASSIGNED!  If you are unsure, send SIGINT NOW!  Configuring in ten seconds.\n" >/dev/stderr
+sleep 10 || exit 3
 
 [ -z "$2" ] && printf "$0: Not enough arguments.\n$0: You MUST run this script with the following arguments:\n$0: <Basename> <RFD number>\n" > /dev/stderr && exit 1 
 [ "$3" ] && printf "$0: Too many arguments.\n$0: You MUST run this script with the following arguments:\n$0: <Basename> <RFD number>\n" > /dev/stderr && exit 2
@@ -39,19 +41,15 @@ mv TEMPLATE.md "$FILENAME".md
 sed -i 's/RFDN/'"$RFDN"'/g' "$FILENAME".md
 
 (sed 's/FILENAME/'"$FILENAME"'/g' << EOF
-update: FILENAME.txt FILENAME.7 FILENAME.ps FILENAME.pdf FILENAME.ps
+update: FILENAME.txt FILENAME.7
 	git add .
 	git commit
 	git push
 
-FILENAME.ps: FILENAME.txt
-	paps FILENAME.txt --top-margin=21 --bottom-margin=21 > FILENAME.ps
-FILENAME.pdf: FILENAME.ps
-	ps2pdf FILENAME.ps
 FILENAME.7: FILENAME.md
 	mmark --man FILENAME.md > FILENAME.7
-FILENAME.txt FILENAME.html: FILENAME.xml
-	xml2rfc --text --html FILENAME.xml
+FILENAME.txt: FILENAME.xml
+	xml2rfc --text FILENAME.xml
 	sed -i -e '/\f/{n;s/^DOTS/RFD RFDN/}' FILENAME.txt
 	ed FILENAME.txt < Edfile
 FILENAME.xml: FILENAME.md
