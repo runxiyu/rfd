@@ -39,11 +39,15 @@ mv TEMPLATE.md "$FILENAME".md
 sed -i 's/RFDN/'"$RFDN"'/g' "$FILENAME".md
 
 (sed 's/FILENAME/'"$FILENAME"'/g' << EOF
-update: FILENAME.txt FILENAME.7 FILENAME.html
+update: FILENAME.txt FILENAME.7 FILENAME.ps FILENAME.pdf FILENAME.ps
 	git add .
 	git commit
 	git push
 
+FILENAME.ps: FILENAME.txt
+	paps FILENAME.txt --top-margin=21 --bottom-margin=21 > FILENAME.ps
+FILENAME.pdf: FILENAME.ps
+	ps2pdf FILENAME.ps
 FILENAME.7: FILENAME.md
 	mmark --man FILENAME.md > FILENAME.7
 FILENAME.txt FILENAME.html: FILENAME.xml
