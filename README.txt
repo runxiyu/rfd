@@ -1,3 +1,7 @@
+========================================================================
+=                      Request for Discussions                         =
+========================================================================
+
 Request for Discussions is a series of documents related to Free
 Software and free society.
 
