@@ -1,0 +1,5 @@
+  * Update to RFD1: Explain further that that the goal is still to
+    progress the free software movement.  Use statistics to support
+    examples provided.
+  * Add older articles, primarily those from LP-discuss, with
+    acknowledgement from the author.
