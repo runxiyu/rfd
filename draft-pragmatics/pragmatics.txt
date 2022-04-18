@@ -48,8 +48,8 @@ Table of Contents
    Software Movement, and avoid proprietary software when possible.
    However, as most outsiders are unaware and are deeply buried inside
    the proprietary dystopia created by mostly multibillion-dollar
-   technology coorporations, our methods of communicating with the
-   masses are ineffective.
+   technology corporations, our methods of communicating with the masses
+   are ineffective.
 
 
 
@@ -94,7 +94,7 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
    Introducing ignorant users on these protocols and platforms are a
    day-to-day simple task.  Furthermore, the amount of users we can
    reach on these protocols are rather limiting.  Libera has around
-   forty thousand users according to the USERS command, and considering
+   forty thousand users according to the LUSERS command, and considering
    the fact that around 90% of these people aren't ignorant, there isn't
    much we can do.
 

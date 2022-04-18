@@ -1,7 +1,8 @@
-update: pragmatics.txt pragmatics.7 pragmatics.pdf pragmatics.ps pragmatics.html
+git: update
 	git add .
 	git commit
 	git push
+update: pragmatics.txt pragmatics.7 pragmatics.pdf pragmatics.ps pragmatics.html
 
 pragmatics.pdf: pragmatics.ps
 	ps2pdf pragmatics.ps
