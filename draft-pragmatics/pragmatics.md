@@ -108,7 +108,7 @@ iShareFreedom's absolute standpoint in #fsf that we can spread awareness effecti
 {numbered="false"}
 # Contributors
 
-Many thanks to Leah Rowe?
+Many thanks to everyone who has contributed to this document by supplying ideas, correcting typos or spreading the word, including but not limited to DiffieHellman, Leah Rowe, Noisytoot and fluxionary.
 
 
 <reference anchor="RFC2813" target="https://www.rfc-editor.org/rfc/rfc2813.txt">

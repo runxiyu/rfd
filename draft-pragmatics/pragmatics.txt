@@ -284,7 +284,10 @@ RFD 1               Pragmatic Use of Nonfree Software         April 2022
 
 Contributors
 
-   Many thanks to Leah Rowe?
+   Many thanks to everyone who has contributed to this document by
+   supplying ideas, correcting typos or spreading the word, including
+   but not limited to DiffieHellman, Leah Rowe, Noisytoot and
+   fluxionary.
 
 Author's Address
 
@@ -292,9 +295,6 @@ Author's Address
    The 2nd School Aff. to FDU
    Email: andrew@andrewyu.org
    URI:   https://www.andrewyu.org/
-
-
-
 
 
 
