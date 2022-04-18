@@ -87,7 +87,7 @@
  <body>
    <div style="margin-left:15px;margin-top:10px;font-size:15pt">
    <b>
-   Index of <xsl:value-of select="$cpath"/>
+   Request for Discussions: <xsl:value-of select="$cpath"/>
    </b>
    </div>
    <center>
