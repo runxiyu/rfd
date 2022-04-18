@@ -24,10 +24,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 from sys import *
 import yaml
-from pprint import pprint # For debugging
+from pprint import pprint  # For debugging
 
 # Constants that should stay constant across the program
-PAGEBREAK = "\f" # Form feed, sometimes denoted as Control-L
+PAGEBREAK = "\f"  # Form feed, sometimes denoted as Control-L
 WIDTH = 72
 
 # Variables that actually change while running
@@ -36,14 +36,24 @@ section_counter = 1
 section_counting = True
 this_page_line_counter = 0
 
-stdout.write("\n\n\n\n")
-this_page_line_counter += 4
+output_queue = []
+
+def output(string):
+    output_queue.append("string")
+    r = 0
+    for i in range(len(string)):
+        if (string == "\n"):
+            r += 1
+    return r
 
 preamble = ""
 while True:
     l = stdin.readline()
     if l == "":
-        print("mkrfd: Unexpected EOF when expecting the preamble to end (---).", file=stderr)
+        print(
+            "mkrfd: Unexpected EOF when expecting the preamble to end (---).",
+            file=stderr,
+        )
         exit(1)
     elif l.startswith("---"):
         break
@@ -54,7 +64,11 @@ del l
 configuration = yaml.safe_load(preamble)
 del preamble
 
-stdout.write((int(0.5*(WIDTH - len(configuration['title']))))*' ' + configuration['title'] + '\n')
+stdout.write(
+    (int(0.5 * (WIDTH - len(configuration["title"])))) * " "
+    + configuration["title"]
+    + "\n"
+)
 stdout.write("\n")
 
 while True:
@@ -62,17 +76,17 @@ while True:
     if l == "":
         exit(0)
     else:
-        if l.startswith('\\'): # This string is a single backslash
-            if l.startswith('\\\\'):
+        if l.startswith("\\"):  # This string is a single backslash
+            if l.startswith("\\\\"):
                 l = l[1:]
-            elif l.startswith('\\frontmatter'):
+            elif l.startswith("\\frontmatter"):
                 section_counting = False
                 toc_recording = True
                 continue
-            elif l.startswith('\\mainmatter'):
+            elif l.startswith("\\mainmatter"):
                 toc_recording = True
                 continue
             else:
-                print("mkrfd: Undefined control sequence: " + l, file=stderr)
+                print("mkrfd: Undefined control sequence: " + l + ".", file=stderr)
                 exit(2)
 del l
