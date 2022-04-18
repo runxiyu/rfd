@@ -19,7 +19,8 @@ RFDs are immutable, except for the "Updated By" and "Obsoleted By"
 lines in the top left of the document and an "ERRATA EXISTS" message.
 Minor problems must be corrected through publishing an ERRATA file and
 indicating ERRATA EXISTS in the RFD.  Large changes require new
-updating or obsoleting RFDs.
+updating or obsoleting RFDs.  Such modifications should be made on the
+generated files, not by regenerating from a modified markup source.
 
 An informational RFDs describing the document series is upcoming.
 
