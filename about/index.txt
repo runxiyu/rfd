@@ -33,8 +33,11 @@ Currently, IETF RFC tools are used for typesetting.  An experimental
 tool is being developed in utilities/, which takes RFD Markup
 (documentation pending) input and outputs plain text RFDs.
 
-Documents are currently available in Markdown source, plain text, and
-nroff man.  To view a nroff manual page, use the -l option of man(1).
+RFDs are currently available in, plain text, and nroff man.  To view a
+nroff manual page, use the -l option of man(1).  Drafts additionally
+have Markdown source.  As all RFDs were drafts, the Git history
+contains the sources thereof, located at
+<git://git.andrewyu.org/rfd.andrewyu.org.git>.
 
 RFDs stand for Request for Discussions.  Community discussions are very
 welcome.  You may submit your ideas to us via the rfd AT andrewyu DOT
