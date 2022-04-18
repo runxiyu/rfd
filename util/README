@@ -1,2 +1,5 @@
 This is the upcoming utility set to typeset RFDs.  The IETF xml2rfc
 package works, but is too much bloat for our purposes.
+
+Development is currently delayed, as xml2rfc suffices for our purposes
+right now.  A better solution is preferred in the long run.
