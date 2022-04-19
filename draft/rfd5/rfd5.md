@@ -142,10 +142,10 @@ This article was written to address transgender issues, which are separate
 from those of sexual orientation. You can learn more generally about LGBTQIA+
 people on Wikipedia and many other websites. For example:
 
-** [LGBT](https://en.wikipedia.org/wiki/LGBT)
-** [Queer](https://en.wikipedia.org/wiki/Queer)
-** [Intersex](https://en.wikipedia.org/wiki/Intersex)
-** [Asexuality](https://en.wikipedia.org/wiki/Asexuality)
+- [LGBT](https://en.wikipedia.org/wiki/LGBT)
+- [Queer](https://en.wikipedia.org/wiki/Queer)
+- [Intersex](https://en.wikipedia.org/wiki/Intersex)
+- [Asexuality](https://en.wikipedia.org/wiki/Asexuality)
 
 LGBTQIA+ stands for: Lesbian, Gay, Bisexual, Transgender, Queer, Intersex, Asexual and the plus symbol usually refers to **allies**, who are not part of the LGBTQIA community per se, but nonetheless support it and try to help us.  I encourage everyone to educate themselves about our issues, and our ongoing global struggle for freedom, and equality. We have made some progress, in some parts of the world, but it is incomplete, and we are treated very differently (for better or worse) depending on what country you look at.
 

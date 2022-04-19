@@ -183,10 +183,10 @@ RFD RFDN           Pronouns for Better Respect for LGBTQIA+      April 2022
    generally about LGBTQIA+ people on Wikipedia and many other websites.
    For example:
 
-   ** LGBT (https://en.wikipedia.org/wiki/LGBT) ** Queer
-   (https://en.wikipedia.org/wiki/Queer) ** Intersex
-   (https://en.wikipedia.org/wiki/Intersex) ** Asexuality
-   (https://en.wikipedia.org/wiki/Asexuality)
+   *  LGBT (https://en.wikipedia.org/wiki/LGBT)
+   *  Queer (https://en.wikipedia.org/wiki/Queer)
+   *  Intersex (https://en.wikipedia.org/wiki/Intersex)
+   *  Asexuality (https://en.wikipedia.org/wiki/Asexuality)
 
    LGBTQIA+ stands for: Lesbian, Gay, Bisexual, Transgender, Queer,
    Intersex, Asexual and the plus symbol usually refers to *allies*, who
