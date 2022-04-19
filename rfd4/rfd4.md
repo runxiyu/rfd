@@ -91,14 +91,11 @@ knowledge being distributed themselves.  However, I believe this doesn't
 lead to the argument that the mandate of proprietary software usage is
 just, for three reasons as below.
 
-1. There are always going to be curious students who wonder how the
-trchnology works.  Proprietary software denies them this right.
+1. There are always going to be curious students who wonder how the technology works.  Proprietary software denies them this right.
 
-2. The usage of proprietary software when young may implant dependence
-on it in the future.
+2. The usage of proprietary software when young may implant dependence on it in the future.
 
-3. Education is a right and a responsility.  Mandating nonfree software
-in education adds unjust responsibilities on students.
+3. Education is a right and a responsility.  Mandating nonfree software in education adds unjust responsibilities on students.
 
 Point 1 and 2 are explained well in the Education section of the GNU
 website, therefore I am not going to focus on them.  Focusing on the

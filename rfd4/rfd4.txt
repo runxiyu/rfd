@@ -102,7 +102,7 @@ RFD 4            Nonfree Software Mandates and Lockdowns      April 2022
    usage is just, for three reasons as below.
 
    1.  There are always going to be curious students who wonder how the
-       trchnology works.  Proprietary software denies them this right.
+       technology works.  Proprietary software denies them this right.
 
    2.  The usage of proprietary software when young may implant
        dependence on it in the future.
