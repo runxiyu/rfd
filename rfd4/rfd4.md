@@ -1,11 +1,11 @@
 %%%
-title = "Nonfree Software Mandates by Governments"
-abbrev = "Nonfree Software Mandates by Governments"
-area = "Free Software"
-workgroup = "Free Software Community"
+title = "Nonfree Software Mandates and Lockdowns"
+abbrev = "Nonfree Software Mandates and Lockdowns"
+area = "Society"
+workgroup = "Libre Society"
 submissiontype = "independent"
 ipr = "none"
-keyword = ["education"]
+keyword = ["education", "software", "government", "covid", "society"]
 #updates = [ <++> ]
 #date = 2003-04-01T00:00:00Z
 
@@ -28,11 +28,11 @@ organization = "The 2nd School Aff. to FDU"
 
 .# Abstract
 
-?
+During COVID, many governments mandate usage of nonfree software on ordinary citizens, with questionable constitutionality.  Some governments impose extreme lockdown.  This memo discusses its in-justifications and consequences.
 
 .# Status of This Memo
 
-This memo documents a small email thread to the LibrePlanet-discuss maialing list.[@THREAD]
+This memo documents a small email thread to the LibrePlanet-discuss maialing list[@THREAD] and adds some elaboration.
 
 This document is a draft.
 
@@ -262,10 +262,31 @@ your phone at home".
 Definitely- let us hope that these measures die with the emergency
 they were a response to, and the others can be fought off successfully. 
 
-
-
-
 # Epilogue
+
+It's closed management in Shanghai again (March 2022). This is the second citywide lockdown. The last time was in 2020.
+
+The delta variant of the SARS-CoV-2 is partly lethal, and highly contagious. It has wrecked havoc around the world, especially in Europe, causing hundreds of thousands of infections and thousands of deaths.[Citation needed] If it erupts in densely populated cities such as Shanghai, the consequences will be unimaginable.
+
+There was a recent global pandemic of the Omicron variant. Originally I was terrified, I thought it was a "killer" variant similar to the Delta. However, after reading the relevant information, I found that the Omicron variant is extremely contagious but has quite low mortality rates, similar to the mortality rate of influenza. Therefore, some countries and regions have adopted a normal influenza policy, that is, only the close contacts of the patient are isolated at home, and several tests are completed during the incubation period. If the test results are all negative, the close contacts are allowed to resume normal life.
+
+Typically in Shanghai, imported cases detected at airports and train stations were easy to isolate and track. However, it was the poor management of the hotel that received the quarantined people that caused Omicron to spread like crazy. This also led the government to find that Omicron's asymptomatic infections accounted for a large proportion of infected people, which also showed that Omicron was less destructive.
+
+On March 10, 2022, we were notified that the teaching activities of primary and secondary schools in Shanghai will be online. The effect of online teaching is still incomparable to offline teaching, even without considering the ethical concerns of software used (see section 1). I was surprised at the time, especially after finding out that Omicron wasn't a big deal. Shanghai actually adopted administrative measures of closed management. All residents must stay at home, not go out, or even go to the nearest store to buy food, in order to completely wipe out the new crown.
+
+That there are actully many workers in Shanghai. Much of their work cannot be done online from home. Lockdown means that they lose their source of income, their purchasing power declines, and ultimately lead to long-term economic problems; furthermore, because the city is now locked down, hospitals are not accepting new patients, and even basic services such as ambulances and rescues are very slow. Shanghai usually completes 80,000 surgical operations every day, including routine chronic disease treatment, myocardial infarction, stroke and other acute problems rescue, mild disease treatment, etc. This has caused thousands of stroke and myocardial infarction patients to lose their lives[Citation needed], and people with kidney disease are also approaching kidney failure because they cannot complete dialysis. In contrast, as of April 14, 13 of the 300,000 infected people in Shanghai were severely ill to COVID, none of the 13 had been vaccinated and all had serious underlying diseases. It can be said that this outbreak has minimal impact on people. In today's aging society, more patients with chronic diseases are delayed in treatment, with serious long-term consequences. Even for families with relatively stable lives, not being able to go out to exercise or buy food will affect our quality of life.
+
+Now some communities are gradually unlockdowned due to nobody testing positive in a long time, and people can finally go downstairs to stroll in the community, but they cannot leave the block.
+
+It's hard to tell if a lot of extra deaths were related to the coronavirus lockdown. However, the government, after all, knows how many people die every day. If we compare the average death rate in 2019 with today's and find that the current rate is much higher, our policies need to be improved - because the virus itself cannot directly cause a large number of deaths. The ultimate purpose of our government's policies is to benefit the people, not to disprove other countries' slogans of "living with the virus" and to prove that they have the ability to eliminate the new crown.
+
+Politicians often sacrifice the interests of the few at the expense of the many in an emergency. Kant's philosophical school criticizes this policy because there is no basic principle behind it, and it is easy to lead to the tyranny of the majority.
+
+During World War II, however, Turing cracked the Engima used to encrypt communications in Nazi Germany. Churchill learned that the Nazis would attack the city of Coventry, but in order not to let the Nazis know that the British had cracked their code, and to ensure that more important German military information could be stolen in the future, Churchill chose not to inform the city. In order not to be discovered by the Germans and to protect greater military secrets, Churchill decided not to warn Coventry. Tens of thousands of British compatriots died in that bombing, but Britain helped the anti-fascist countries win World War II by stealing follow-up communications. Without this move, we are likely to be surrounded by a greater evil, namely fascism.
+
+But this time, we are probably not sacrificing the interests of the few for the good of the many. This time, the severe rate is extremely low, and the strict blockade and prevention and control have led to more and wider trauma. We may well be sacrificing the interests of the many for the interests of the few. Nor can I think of any ethics and principles that compel us to do so.
+
+The founder of classical liberalism, John Locke, believed that in order to protect their negative freedoms (such as the right to life and property rights), people ceded some of their freedoms and rights to the government, and the government replaced the powerless individuals to protect their rights. But when people shout "We need food" on the balcony, when someone is lying on the ground of the community with a simple fracture and the ambulance needs to be approved by the neighborhood committee and reported to the higher-level to enter the community, we need to rethink the policy.
 
 
 # Conclusion

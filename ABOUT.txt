@@ -11,7 +11,8 @@ The status of all RFDs may be viewed at /STATUS.tsv, a tab-seperated
 file containing the ID, name, the RFDs that it updates and obsoletes,
 the RFDs that updates and obsoletes itself, and status of RFDs.
 The status may be one of Experimental, Informational, Obsolete,
-Historic, Best Current Practice, or Draft.
+Historic, Best Current Practice, or Draft.  It also notes if an RFD
+has erratas.
 
 The current autoindex system provided by the Nginx Web server is very
 limiting.  Along with other utilities, a new system for building and
