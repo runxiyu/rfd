@@ -1,2 +1,0 @@
-Identifier	Name	Status	Updates	Obsoletes	Updated by	Obsoleted by
-rfd1	Pragmatic Use of Nonfree Software	Informational	(None)	(None)	(None)	(None)

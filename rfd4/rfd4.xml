@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- name="GENERATOR" content="github.com/mmarkdown/mmark Mmark Markdown Processor - mmark.miek.nl" -->
+<rfc version="3" ipr="none" docName="Request for Discussions 4" submissionType="independent" category="info" xml:lang="en" xmlns:xi="http://www.w3.org/2001/XInclude" indexInclude="true">
+
+<front>
+<title abbrev="Nonfree Software Mandates by Governments">Nonfree Software Mandates by Governments</title><seriesInfo value="Request for Discussions 4" stream="independent" status="informational" name="Internet-Draft"></seriesInfo>
+<author initials="A." surname="Yu" fullname="Andrew Yu"><organization>The 2nd School Aff. to FDU</organization><address><postal><street></street>
+</postal><email>andrew@andrewyu.org</email>
+<uri>https://www.andrewyu.org/</uri>
+</address></author><date/>
+<area>Free Software</area>
+<workgroup>Free Software Community</workgroup>
+<keyword>education</keyword>
+
+<abstract>
+<t>?</t>
+</abstract>
+
+<note><name>Status of This Memo</name>
+<t>This memo documents a small email thread to the LibrePlanet-discuss maialing list.<xref target="THREAD"></xref></t>
+<t>This document is a draft.</t>
+<t>This document describes the author's viewpoint.  Distribution of this memo is unlimited.</t>
+</note>
+
+</front>
+
+<middle>
+
+<section anchor="original-message"><name>Original Message</name>
+<t>I am a secondary school student from Shanghai, China.  This email
+discusses the problems I discovered in the Chinese educational system,
+in terms of students' right to freedom in computing and options to
+control the COVID-19 pandemic from the standpoint of a person living in
+China.</t>
+<t>When COVID-19 broke out in 2020, students were required to watch lecture
+videos produced by the city's education department for twenty minutes,
+then join the Tencent Meetings room to discuss in their own class for
+10--15 minutes.</t>
+<t>Watching the videos wasn't an issue for me.  Our apartment has cable TV,
+where the videos are broadcast; there was also a website that played the
+livestream without JavaScript.  However, Tencent Meetings presented a
+problem to me.</t>
+<t>At the time, I run Arch Linux. (Currently, I run Hyperbola
+GNU/Linux-libre, a Free Software-only distribution, which would have
+made this even harder.) Tencnet Meetings, claiming to support &quot;all
+operating systems and platforms&quot;, only supports Windows and macOS. (I
+wonder how they passed the resolution to display that statement, I
+believe that they have many programmers who use GNU/Linux.) (As of
+October 2021, a classmate noted that there is a &quot;Linux versuon&quot;.) School
+required Tencent Meetings, therefore I went through a hard proccess to
+setup QEMU running a Windows 7 virtural machine---I believed that 7
+would be slightly better than 10 in terms of privacy, though as always
+with nonfree software, I can't really know for sure.  It was slightly
+unstable, which is an annoyance, for example the connection from the
+Windows audio server to pulseaudio would stop working from time to time,
+but it was acceptable.  Though my setup was okay (in the perspective of
+my school), it left me in a psycological crisis about education and
+freedom. More on that later.</t>
+<t>Offline classes resumed in May 2020, as most of China has minimal cases
+of COVID-19.  This freed me from using a proprietary
+non-privacy-respecting bloated piece of software in a virtual machine,
+but it did not free me from teachers' requirement to use WeChat (think
+of it as the equiv of WhatsApp in China), Xiaoheiban (A proprietary
+classroom information distribution system), or other pieces of nonfree
+software.</t>
+<t>Similar to the beliefs stated in the GNU Education project, I believe
+that schools and educaion are a means of sharing information and
+knowledge.  I understand that meeting software and lesson management
+software are used as means of distributing knowledge, rather than the
+knowledge being distributed themselves.  However, I believe this doesn't
+lead to the argument that the mandate of proprietary software usage is
+just, for three reasons as below.</t>
+
+<ol>
+<li><t>There are always going to be curious students who wonder how the
+trchnology works.  Proprietary software denies them this right.</t>
+</li>
+<li><t>The usage of proprietary software when young may implant dependence
+on it in the future.</t>
+</li>
+<li><t>Education is a right and a responsility.  Mandating nonfree software
+in education adds unjust responsibilities on students.</t>
+</li>
+</ol>
+<t>Point 1 and 2 are explained well in the Education section of the GNU
+website, therefore I am not going to focus on them.  Focusing on the
+third point:</t>
+<t>Under laws of almost all countries, citizens have the right to an
+education.  Traditionally, this involves going to school, meeting
+teachers and classmates, listening to classes, taking notes, passing
+exams (I have strong opinions that exam systems ought to change to
+better represent individual talents, but this is out of scope of this
+memo.) and finishing homework.  Students loose a slight bit of their
+time and freedom of movement (as in, it's not easy to move to a house
+100 miles away from school), in exchange for being educated.</t>
+<t>However, with schools requiring the use of nonfree software, in effect
+students are required to give up their privacy, and digital freedom,
+both crucial rights in modern society, as the effect of needing to use
+nonfree software.  The right to education has effectively turned into an
+exchange for other basic rights.  This is not acceptable.</t>
+<t>Furthermore, in countries like China, 9 years of education is mandatory
+for children.  I understand this law as a means to the goal of creating
+a knowledgeble and educated society, which is good.  However, when
+mandatory edication mandates nonfree software, it deduces to &quot;children
+are required to use nonfree software&quot;.  So, being a child here is pretty
+unlucky, because there goes your right to privacy, your independence,
+and your freedom, because of a law that's supposed to help society.</t>
+<t>We need to stop using nonfree software in education.</t>
+<t>In th beginning of this email, I mentioned COVID-19.  You might be
+wondering how China fully put the pandemic under control in just 5
+months, which is seemingly impossible if all you know is how the US
+dealt with this situation.</t>
+<t>The answer is that China is implementing strict contact tracing.  This
+is extremely easy because of the prevaliance of survillance.  Many would
+argue that this is a benefit of survillance, which I believe to be true.
+However, no comparisons were given between losing privacy and increasing
+the risk or infection.  Briefly inspecting this idea in my head, it's
+really hard to think about---privacy and freedom is important in the
+long term, at the cost of many lives in the pandemic.  The lives of
+these dead are gone---they lose not only privacy and computing freedom,
+they lose their lives, which costs them their oppurtunity to persue
+their dreams in this world, and they have no freedom of choice, speech,
+etc as they aren't alive.  Once again, this is hard to wrap my mind
+around, therefore I would especially like to invite the community to
+discuss this.</t>
+<t>The contact tracing system used is not Free Software.  At first I didn't
+understand why (except for the explanation that they want to profit from
+harming citizens), but I noticed that the authenticity and accuracy of
+the system may be affected if users are allowed to modify their
+software.  This seems to be the core of some problems with regards to
+software freedom---here, the user is not running software to complete
+their tasks.  Rather, it's the government's way to maintain public
+safety, therefore I believe that whether users should be able to modify
+software in these conditions is up to discussion.  Back to the point,
+since a green-code proof from the system is needed to get in a lot of
+places, a person basically needs to use proprietary software to live a
+normal life (to get into coffee shops, for example).</t>
+<t>In America and other countries, things aren't that good either.  For one
+the pandemic isn't controlled well.  As a consequence, a lot of places
+require negative COVID tests to do stuff.  A thread on the LibrePlanet
+mailing list discusses this issue, as a lot of these tests require
+nonfree software on users' phones.  Note that this thread spans several
+months long, as it is a hot discussion, so look in the september and
+october archives too.  The thread explains the implications clearly,
+thus I am not discussing it here.</t>
+<t>(<eref target="https://lists.gnu.org/archive/html/libreplanet-discuss/2021-08/msg00008.html.">https://lists.gnu.org/archive/html/libreplanet-discuss/2021-08/msg00008.html.</eref>)</t>
+<t>Additionally, I heard that some US courts require ZOOM for online cases,
+therefore it seems that a person' right to judicial justice comes at the
+cost of digital freedom.  I can't confirm this, but if that's true, I'm
+truely disappointed at the judicial system, even though I'm not a US
+citizen.</t>
+<t>I am looking foward to a freer society, or at least one where the above
+problems get solved.</t>
+<t>Sincerely,
+Andrew Yu</t>
+</section>
+
+<section anchor="reply-from-jahoti"><name>Reply from jahoti</name>
+<t>Thank you for your very interesting and insightful piece on the topic!
+It's nice to hear the personal perspective of someone inside China too,
+being the unfortunate rarity it is.</t>
+<t>You're unfortunately not alone in this; the way educational institutions
+(and no doubt corporations) the world over made such sudden changes,
+even if it was understandable, is doubly traumatic for those of us
+whose perspectives were never considered. The only option I could come
+up with for my classes was to not go- and I took a whole year off just
+trying to reverse engineer the necessary software!</t>
+<t>I completely agree- the fact that non-free software is required to
+meet legal obligations, let alone standard expectations, is completely
+unacceptable!</t>
+<t>However, speaking more broadly, using software in education is itself
+up for debate. That's not to say computers should be banned from
+classrooms or that schools shouldn't teach computing skills; rather,
+some uses seem to be less about genuine evidence of educational value
+and more about schools' (or governments', or technology companies')
+lust for novelty. Some prudence might improve education, save money,
+and make using free software a more viable option for students (and
+even teachers).</t>
+<t>For that matter (as a slightly off-topic personal grievance), using
+software well would be a huge improvement. Digital signatures have
+been around for more than 20 years, yet they have still not made it
+into mainstream use, and in fact some websites implement support for
+<em>written signatures</em>!</t>
+<t>Indeed, any weighting of freedom against death is going to be a deeply
+uneasy one.</t>
+<t>For what it's worth, I would eschew a simple dichotomy to introduce a
+third option: providing tools and encouraging citizens to log location
+data for themselves, which then helps them help contact tracers. In
+countries where authorities are trusted and can easily reach their
+citizens, this seems like a very fair balance; civil liberties are
+respected without significantly hampering disease control efforts.</t>
+<t>Of course, if distrust is widespread or mass media are ineffective,
+this doesn't work, and in that case I'd argue limited surveillance
+requirements would be warranted. The key word, however, if limited:
+under absolutely no circumstances must even a single data entry be
+available to the police, or marketers, or the venue a person entered,
+or anyone except contact tracers working with the individual whose
+record it is if they are confirmed to be infected. It must also not
+include any data except that which can reliably be used to
+significantly improve tracing efforts- simply the fact that something
+could be mildly useful is not, in my opinion, an excuse for capturing
+it and putting it in a database. Of course, it must also be deleted
+once it is no longer potentially useful.</t>
+<t>It's worth noting the irony that those areas were violating civil
+liberties would be least acceptable are also the kind that would have
+been more willing to do so.</t>
+<t>This is indeed a double injustice- as well as proprietary software,
+constant possession of a digital device (probably a tracking one) is
+made a prerequisite for many common activities as well.</t>
+<t>In relation to the right to modify contact tracing software, there is
+definitely a discussion to be had! Personally I see no reason to
+restrict that right; relying heavily on the validity of the data such
+systems produce seems doomed to fail for other reasons anyway, and
+fabricating a plausible dataset is far harder than just &quot;forgetting
+your phone at home&quot;.</t>
+<t>Definitely- let us hope that these measures die with the emergency
+they were a response to, and the others can be fought off successfully.</t>
+</section>
+
+<section anchor="epilogue"><name>Epilogue</name>
+</section>
+
+<section anchor="conclusion"><name>Conclusion</name>
+<t>To be written.</t>
+</section>
+
+<section anchor="government-considerations"><name>Government Considerations</name>
+<t>To be written.</t>
+</section>
+
+</middle>
+
+<back>
+<references><name>Informative References</name>
+<reference anchor="THREAD" target="https://lists.gnu.org/archive/html/libreplanet-discuss/2021-10/msg00011.html">
+  <front>
+    <title>On Free Software, Education in China and the COVID-19 Pandemic</title>
+    <author fullname="Andew Yu" initials="A." surname="Yu">
+      <organization>The Second School affiliated to Fudan University</organization>
+      <address>
+        <email>andrew@andrewyu.org</email>
+        <uri>https://www.andrewyu.org/</uri>
+      </address>
+    </author>
+    <date year="2021" month="October"></date>
+  </front>
+</reference>
+</references>
+
+<section anchor="acknowledgements" numbered="false"><name>Acknowledgements</name>
+<t>To be written.</t>
+</section>
+
+<section anchor="contributors" numbered="false"><name>Contributors</name>
+<t>To be written.</t>
+</section>
+
+</back>
+
+</rfc>
