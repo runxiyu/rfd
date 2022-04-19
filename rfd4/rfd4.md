@@ -172,7 +172,7 @@ thus I am not discussing it here.
 
 (https://lists.gnu.org/archive/html/libreplanet-discuss/2021-08/msg00008.html.)
 
-Additionally, I heard that some US courts require ZOOM for online cases,
+Additionally, I heard that some US courts require Zoom for online cases,
 therefore it seems that a person' right to judicial justice comes at the
 cost of digital freedom.  I can't confirm this, but if that's true, I'm
 truely disappointed at the judicial system, even though I'm not a US
