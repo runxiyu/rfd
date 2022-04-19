@@ -14,8 +14,8 @@ Abstract
 
    During COVID, many governments mandate usage of nonfree software on
    ordinary citizens, with questionable constitutionality.  Some
-   governments impose extreme lockdown.  This memo discusses its in-
-   justifications and consequences.
+   governments impose extreme lockdown.  This memo discusses its
+   injustices and consequences.
 
 Status of This Memo
 
@@ -34,7 +34,8 @@ Table of Contents
    3.  Epilogue  . . . . . . . . . . . . . . . . . . . . . . . . . .   6
    4.  Conclusion  . . . . . . . . . . . . . . . . . . . . . . . . .   9
    5.  Government Considerations . . . . . . . . . . . . . . . . . .   9
-   6.  Informative References  . . . . . . . . . . . . . . . . . . .   9
+   6.  Normative References  . . . . . . . . . . . . . . . . . . . .   9
+   7.  Informative References  . . . . . . . . . . . . . . . . . . .   9
    Acknowledgements  . . . . . . . . . . . . . . . . . . . . . . . .   9
    Contributors  . . . . . . . . . . . . . . . . . . . . . . . . . .   9
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   9
@@ -46,7 +47,6 @@ Table of Contents
    system, in terms of students' right to freedom in computing and
    options to control the COVID-19 pandemic from the standpoint of a
    person living in China.
-
 
 
 
@@ -327,9 +327,9 @@ RFD 4            Nonfree Software Mandates and Lockdowns      April 2022
 
    There was a recent global pandemic of the Omicron variant.
    Originally I was terrified, I thought it was a "killer" variant
-   similar to the Delta.  However, after reading the relevant
-   information, I found that the Omicron variant is extremely contagious
-   but has quite low mortality rates, similar to the mortality rate of
+   similar to Delta.  However, after reading the relevant information, I
+   found that the Omicron variant is extremely contagious but has quite
+   low mortality rates, slightly higher mortality rate of
 
 
 
@@ -338,8 +338,8 @@ Yu                            Informational                     [Page 6]
 RFD 4            Nonfree Software Mandates and Lockdowns      April 2022
 
 
-   influenza.  Therefore, some countries and regions have adopted a
-   normal influenza policy, that is, only the close contacts of the
+   influenza.[OMCNLM] Therefore, some countries and regions have adopted
+   a normal influenza policy, that is, only the close contacts of the
    patient are isolated at home, and several tests are completed during
    the incubation period.  If the test results are all negative, the
    close contacts are allowed to resume normal life.
@@ -347,20 +347,20 @@ RFD 4            Nonfree Software Mandates and Lockdowns      April 2022
    Typically in Shanghai, imported cases detected at airports and train
    stations were easy to isolate and track.  However, it was the poor
    management of the hotel that received the quarantined people that
-   caused Omicron to spread like crazy.  This also led the government to
-   find that Omicron's asymptomatic infections accounted for a large
-   proportion of infected people, which also showed that Omicron was
-   less destructive.
+   caused Omicron to spread like crazy.[HTLOB] This also led the
+   government to find that Omicron's asymptomatic infections accounted
+   for a large proportion of infected people, which also showed that
+   Omicron was less destructive.
 
    On March 10, 2022, we were notified that the teaching activities of
-   primary and secondary schools in Shanghai will be online.  The effect
-   of online teaching is still incomparable to offline teaching, even
-   without considering the ethical concerns of software used (see
+   primary and secondary schools in Shanghai will be online.[NCLS] The
+   effect of online teaching is still incomparable to offline teaching,
+   even without considering the ethical concerns of software used (see
    section 1).  I was surprised at the time, especially after finding
    out that Omicron wasn't a big deal.  Shanghai actually adopted
    administrative measures of closed management.  All residents must
    stay at home, not go out, or even go to the nearest store to buy
-   food, in order to completely wipe out the new crown.
+   food, in order to completely wipe out SARS-CoV-2.[LDPL]
 
    That there are actully many workers in Shanghai.  Much of their work
    cannot be done online from home.  Lockdown means that they lose their
@@ -381,11 +381,11 @@ RFD 4            Nonfree Software Mandates and Lockdowns      April 2022
    today's aging society, more patients with chronic diseases are
    delayed in treatment, with serious long-term consequences.  Even for
    families with relatively stable lives, not being able to go out to
-   exercise or buy food will affect our quality of life.
+   exercise or buy food will affect our quality of life.[Multiple
+   citations needed]
 
-   Now some communities are gradually unlockdowned due to nobody testing
-   positive in a long time, and people can finally go downstairs to
-   stroll in the community, but they cannot leave the block.
+
+
 
 
 
@@ -393,6 +393,10 @@ Yu                            Informational                     [Page 7]
 
 RFD 4            Nonfree Software Mandates and Lockdowns      April 2022
 
+
+   Now some communities are gradually unlockdowned due to nobody testing
+   positive in a long time, and people can finally go downstairs to
+   stroll in the community, but they cannot leave the block.
 
    It's hard to tell if a lot of extra deaths were related to the
    coronavirus lockdown.  However, the government, after all, knows how
@@ -402,7 +406,7 @@ RFD 4            Nonfree Software Mandates and Lockdowns      April 2022
    directly cause a large number of deaths.  The ultimate purpose of our
    government's policies is to benefit the people, not to disprove other
    countries' slogans of "living with the virus" and to prove that they
-   have the ability to eliminate the new crown.
+   have the ability to eliminate COVID.
 
    Politicians often sacrifice the interests of the few at the expense
    of the many in an emergency.  Kant's philosophical school criticizes
@@ -441,10 +445,6 @@ RFD 4            Nonfree Software Mandates and Lockdowns      April 2022
 
 
 
-
-
-
-
 Yu                            Informational                     [Page 8]
 
 RFD 4            Nonfree Software Mandates and Lockdowns      April 2022
@@ -458,7 +458,28 @@ RFD 4            Nonfree Software Mandates and Lockdowns      April 2022
 
    To be written.
 
-6.  Informative References
+6.  Normative References
+
+   [OMCNLM]   World Health Organization, "The Omicron variant: sorting
+              fact from myth", January 2022,
+              <https://www.euro.who.int/en/health-topics/health-
+              emergencies/pages/news/news/2022/01/the-omicron-variant-
+              sorting-fact-from-myth>.
+
+7.  Informative References
+
+   [HTLOB]    The Economic Observer, "Erroneous Treatment of Personnel
+              in Huating Hotel causes outbreak", March 2022,
+              <http://www.eeo.com.cn/2022/0311/525034.shtml>.
+
+   [LDPL]     Shanghai Government, "Policy regarding lockdowns", March
+              2022,
+              <https://www.shbsq.gov.cn/shbs/bsdt/20220414/337001.html>.
+
+   [NCLS]     The Economic Observer, "Shanghai schools pivot to
+              e-learning following COVID-19 outbreak", March 2022,
+              <http://www.chinadaily.com.cn/a/202203/11/
+              WS622b0f91a310cdd39bc8c180.html>.
 
    [THREAD]   Yu, A., "On Free Software, Education in China and the
               COVID-19 Pandemic", October 2021,
@@ -477,6 +498,14 @@ Author's Address
 
    Andrew Yu
    The 2nd School Aff. to FDU
+
+
+
+Yu                            Informational                     [Page 9]
+
+RFD 4            Nonfree Software Mandates and Lockdowns      April 2022
+
+
    Email: andrew@andrewyu.org
    URI:   https://www.andrewyu.org/
 
@@ -501,4 +530,31 @@ Author's Address
 
 
 
-Yu                            Informational                     [Page 9]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Yu                            Informational                    [Page 10]

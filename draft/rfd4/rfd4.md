@@ -28,262 +28,380 @@ organization = "The 2nd School Aff. to FDU"
 
 .# Abstract
 
-During COVID, many governments mandate usage of nonfree software on ordinary citizens, with questionable constitutionality.  Some governments impose extreme lockdown.  This memo discusses its in-justifications and consequences.
+During COVID, many governments mandate usage of nonfree software on ordinary
+citizens, with questionable constitutionality.  Some governments impose extreme
+lockdown.  This memo discusses its injustices and consequences.
 
 .# Status of This Memo
 
-This memo documents a small email thread to the LibrePlanet-discuss maialing list[@THREAD] and adds some elaboration.
+This memo documents a small email thread to the LibrePlanet-discuss maialing
+list[@THREAD] and adds some elaboration.
 
 This document is a draft.
 
-This document describes the author's viewpoint.  Distribution of this memo is unlimited.
+This document describes the author's viewpoint.  Distribution of this memo is
+unlimited.
 
 
 {mainmatter}
 
 # Original Message
-I am a secondary school student from Shanghai, China.  This email
-discusses the problems I discovered in the Chinese educational system,
-in terms of students' right to freedom in computing and options to
-control the COVID-19 pandemic from the standpoint of a person living in
-China.
+I am a secondary school student from Shanghai, China.  This email discusses the
+problems I discovered in the Chinese educational system, in terms of students'
+right to freedom in computing and options to control the COVID-19 pandemic from
+the standpoint of a person living in China.
 
-When COVID-19 broke out in 2020, students were required to watch lecture
-videos produced by the city's education department for twenty minutes,
-then join the Tencent Meetings room to discuss in their own class for
-10--15 minutes.
+When COVID-19 broke out in 2020, students were required to watch lecture videos
+produced by the city's education department for twenty minutes, then join the
+Tencent Meetings room to discuss in their own class for 10--15 minutes.
 
-Watching the videos wasn't an issue for me.  Our apartment has cable TV,
-where the videos are broadcast; there was also a website that played the
-livestream without JavaScript.  However, Tencent Meetings presented a
-problem to me.
+Watching the videos wasn't an issue for me.  Our apartment has cable TV, where
+the videos are broadcast; there was also a website that played the livestream
+without JavaScript.  However, Tencent Meetings presented a problem to me.
 
-At the time, I run Arch Linux. (Currently, I run Hyperbola
-GNU/Linux-libre, a Free Software-only distribution, which would have
-made this even harder.) Tencnet Meetings, claiming to support "all
-operating systems and platforms", only supports Windows and macOS. (I
-wonder how they passed the resolution to display that statement, I
-believe that they have many programmers who use GNU/Linux.) (As of
-October 2021, a classmate noted that there is a "Linux versuon".) School
-required Tencent Meetings, therefore I went through a hard proccess to
-setup QEMU running a Windows 7 virtural machine---I believed that 7
-would be slightly better than 10 in terms of privacy, though as always
-with nonfree software, I can't really know for sure.  It was slightly
-unstable, which is an annoyance, for example the connection from the
-Windows audio server to pulseaudio would stop working from time to time,
-but it was acceptable.  Though my setup was okay (in the perspective of
-my school), it left me in a psycological crisis about education and
-freedom. More on that later.
+At the time, I run Arch Linux. (Currently, I run Hyperbola GNU/Linux-libre, a
+Free Software-only distribution, which would have made this even harder.)
+Tencnet Meetings, claiming to support "all operating systems and platforms",
+only supports Windows and macOS. (I wonder how they passed the resolution to
+display that statement, I believe that they have many programmers who use
+GNU/Linux.) (As of October 2021, a classmate noted that there is a "Linux
+versuon".) School required Tencent Meetings, therefore I went through a hard
+proccess to setup QEMU running a Windows 7 virtural machine---I believed that 7
+would be slightly better than 10 in terms of privacy, though as always with
+nonfree software, I can't really know for sure.  It was slightly unstable,
+which is an annoyance, for example the connection from the Windows audio server
+to pulseaudio would stop working from time to time, but it was acceptable.
+Though my setup was okay (in the perspective of my school), it left me in a
+psycological crisis about education and freedom. More on that later.
 
-Offline classes resumed in May 2020, as most of China has minimal cases
-of COVID-19.  This freed me from using a proprietary
-non-privacy-respecting bloated piece of software in a virtual machine,
-but it did not free me from teachers' requirement to use WeChat (think
-of it as the equiv of WhatsApp in China), Xiaoheiban (A proprietary
-classroom information distribution system), or other pieces of nonfree
-software.
+Offline classes resumed in May 2020, as most of China has minimal cases of
+COVID-19.  This freed me from using a proprietary non-privacy-respecting
+bloated piece of software in a virtual machine, but it did not free me from
+teachers' requirement to use WeChat (think of it as the equiv of WhatsApp in
+China), Xiaoheiban (A proprietary classroom information distribution system),
+or other pieces of nonfree software.
 
-Similar to the beliefs stated in the GNU Education project, I believe
-that schools and educaion are a means of sharing information and
-knowledge.  I understand that meeting software and lesson management
-software are used as means of distributing knowledge, rather than the
-knowledge being distributed themselves.  However, I believe this doesn't
-lead to the argument that the mandate of proprietary software usage is
-just, for three reasons as below.
+Similar to the beliefs stated in the GNU Education project, I believe that
+schools and educaion are a means of sharing information and knowledge.  I
+understand that meeting software and lesson management software are used as
+means of distributing knowledge, rather than the knowledge being distributed
+themselves.  However, I believe this doesn't lead to the argument that the
+mandate of proprietary software usage is just, for three reasons as below.
 
-1. There are always going to be curious students who wonder how the technology works.  Proprietary software denies them this right.
+1. There are always going to be curious students who wonder how the technology
+works.  Proprietary software denies them this right.
 
-2. The usage of proprietary software when young may implant dependence on it in the future.
+2. The usage of proprietary software when young may implant dependence on it in
+the future.
 
-3. Education is a right and a responsility.  Mandating nonfree software in education adds unjust responsibilities on students.
+3. Education is a right and a responsility.  Mandating nonfree software in
+education adds unjust responsibilities on students.
 
-Point 1 and 2 are explained well in the Education section of the GNU
-website, therefore I am not going to focus on them.  Focusing on the
-third point:
+Point 1 and 2 are explained well in the Education section of the GNU website,
+therefore I am not going to focus on them.  Focusing on the third point:
 
-Under laws of almost all countries, citizens have the right to an
-education.  Traditionally, this involves going to school, meeting
-teachers and classmates, listening to classes, taking notes, passing
-exams (I have strong opinions that exam systems ought to change to
-better represent individual talents, but this is out of scope of this
-memo.) and finishing homework.  Students loose a slight bit of their
-time and freedom of movement (as in, it's not easy to move to a house
-100 miles away from school), in exchange for being educated.
+Under laws of almost all countries, citizens have the right to an education.
+Traditionally, this involves going to school, meeting teachers and classmates,
+listening to classes, taking notes, passing exams (I have strong opinions that
+exam systems ought to change to better represent individual talents, but this
+is out of scope of this memo.) and finishing homework.  Students loose a slight
+bit of their time and freedom of movement (as in, it's not easy to move to a
+house 100 miles away from school), in exchange for being educated.
 
-However, with schools requiring the use of nonfree software, in effect
-students are required to give up their privacy, and digital freedom,
-both crucial rights in modern society, as the effect of needing to use
-nonfree software.  The right to education has effectively turned into an
-exchange for other basic rights.  This is not acceptable.
+However, with schools requiring the use of nonfree software, in effect students
+are required to give up their privacy, and digital freedom, both crucial rights
+in modern society, as the effect of needing to use nonfree software.  The right
+to education has effectively turned into an exchange for other basic rights.
+This is not acceptable.
 
-Furthermore, in countries like China, 9 years of education is mandatory
-for children.  I understand this law as a means to the goal of creating
-a knowledgeble and educated society, which is good.  However, when
-mandatory edication mandates nonfree software, it deduces to "children
-are required to use nonfree software".  So, being a child here is pretty
-unlucky, because there goes your right to privacy, your independence,
-and your freedom, because of a law that's supposed to help society.
+Furthermore, in countries like China, 9 years of education is mandatory for
+children.  I understand this law as a means to the goal of creating a
+knowledgeble and educated society, which is good.  However, when mandatory
+edication mandates nonfree software, it deduces to "children are required to
+use nonfree software".  So, being a child here is pretty unlucky, because there
+goes your right to privacy, your independence, and your freedom, because of a
+law that's supposed to help society.
 
 We need to stop using nonfree software in education.
 
-In th beginning of this email, I mentioned COVID-19.  You might be
-wondering how China fully put the pandemic under control in just 5
-months, which is seemingly impossible if all you know is how the US
-dealt with this situation.
+In th beginning of this email, I mentioned COVID-19.  You might be wondering
+how China fully put the pandemic under control in just 5 months, which is
+seemingly impossible if all you know is how the US dealt with this situation.
 
-The answer is that China is implementing strict contact tracing.  This
-is extremely easy because of the prevaliance of survillance.  Many would
-argue that this is a benefit of survillance, which I believe to be true.
-However, no comparisons were given between losing privacy and increasing
-the risk or infection.  Briefly inspecting this idea in my head, it's
-really hard to think about---privacy and freedom is important in the
-long term, at the cost of many lives in the pandemic.  The lives of
-these dead are gone---they lose not only privacy and computing freedom,
-they lose their lives, which costs them their oppurtunity to persue
-their dreams in this world, and they have no freedom of choice, speech,
-etc as they aren't alive.  Once again, this is hard to wrap my mind
-around, therefore I would especially like to invite the community to
+The answer is that China is implementing strict contact tracing.  This is
+extremely easy because of the prevaliance of survillance.  Many would argue
+that this is a benefit of survillance, which I believe to be true.  However, no
+comparisons were given between losing privacy and increasing the risk or
+infection.  Briefly inspecting this idea in my head, it's really hard to think
+about---privacy and freedom is important in the long term, at the cost of many
+lives in the pandemic.  The lives of these dead are gone---they lose not only
+privacy and computing freedom, they lose their lives, which costs them their
+oppurtunity to persue their dreams in this world, and they have no freedom of
+choice, speech, etc as they aren't alive.  Once again, this is hard to wrap my
+mind around, therefore I would especially like to invite the community to
 discuss this.
 
 The contact tracing system used is not Free Software.  At first I didn't
 understand why (except for the explanation that they want to profit from
-harming citizens), but I noticed that the authenticity and accuracy of
-the system may be affected if users are allowed to modify their
-software.  This seems to be the core of some problems with regards to
-software freedom---here, the user is not running software to complete
-their tasks.  Rather, it's the government's way to maintain public
-safety, therefore I believe that whether users should be able to modify
-software in these conditions is up to discussion.  Back to the point,
-since a green-code proof from the system is needed to get in a lot of
-places, a person basically needs to use proprietary software to live a
-normal life (to get into coffee shops, for example).
+harming citizens), but I noticed that the authenticity and accuracy of the
+system may be affected if users are allowed to modify their software.  This
+seems to be the core of some problems with regards to software freedom---here,
+the user is not running software to complete their tasks.  Rather, it's the
+government's way to maintain public safety, therefore I believe that whether
+users should be able to modify software in these conditions is up to
+discussion.  Back to the point, since a green-code proof from the system is
+needed to get in a lot of places, a person basically needs to use proprietary
+software to live a normal life (to get into coffee shops, for example).
 
-In America and other countries, things aren't that good either.  For one
-the pandemic isn't controlled well.  As a consequence, a lot of places
-require negative COVID tests to do stuff.  A thread on the LibrePlanet
-mailing list discusses this issue, as a lot of these tests require
-nonfree software on users' phones.  Note that this thread spans several
-months long, as it is a hot discussion, so look in the september and
-october archives too.  The thread explains the implications clearly,
-thus I am not discussing it here.
+In America and other countries, things aren't that good either.  For one the
+pandemic isn't controlled well.  As a consequence, a lot of places require
+negative COVID tests to do stuff.  A thread on the LibrePlanet mailing list
+discusses this issue, as a lot of these tests require nonfree software on
+users' phones.  Note that this thread spans several months long, as it is a hot
+discussion, so look in the september and october archives too.  The thread
+explains the implications clearly, thus I am not discussing it here.
 
 (https://lists.gnu.org/archive/html/libreplanet-discuss/2021-08/msg00008.html.)
 
 Additionally, I heard that some US courts require Zoom for online cases,
-therefore it seems that a person' right to judicial justice comes at the
-cost of digital freedom.  I can't confirm this, but if that's true, I'm
-truely disappointed at the judicial system, even though I'm not a US
-citizen.
+therefore it seems that a person' right to judicial justice comes at the cost
+of digital freedom.  I can't confirm this, but if that's true, I'm truely
+disappointed at the judicial system, even though I'm not a US citizen.
 
 I am looking foward to a freer society, or at least one where the above
 problems get solved.
 
-Sincerely,
-Andrew Yu
+Sincerely, Andrew Yu
 
 # Reply from jahoti
-Thank you for your very interesting and insightful piece on the topic!
-It's nice to hear the personal perspective of someone inside China too,
-being the unfortunate rarity it is.
+Thank you for your very interesting and insightful piece on the topic!  It's
+nice to hear the personal perspective of someone inside China too, being the
+unfortunate rarity it is.
 
-You're unfortunately not alone in this; the way educational institutions
-(and no doubt corporations) the world over made such sudden changes,
-even if it was understandable, is doubly traumatic for those of us
-whose perspectives were never considered. The only option I could come
-up with for my classes was to not go- and I took a whole year off just
-trying to reverse engineer the necessary software!
+You're unfortunately not alone in this; the way educational institutions (and
+no doubt corporations) the world over made such sudden changes, even if it was
+understandable, is doubly traumatic for those of us whose perspectives were
+never considered. The only option I could come up with for my classes was to
+not go- and I took a whole year off just trying to reverse engineer the
+necessary software!
 
-I completely agree- the fact that non-free software is required to
-meet legal obligations, let alone standard expectations, is completely
-unacceptable!
-
-
-However, speaking more broadly, using software in education is itself
-up for debate. That's not to say computers should be banned from
-classrooms or that schools shouldn't teach computing skills; rather,
-some uses seem to be less about genuine evidence of educational value
-and more about schools' (or governments', or technology companies')
-lust for novelty. Some prudence might improve education, save money,
-and make using free software a more viable option for students (and
-even teachers).
+I completely agree- the fact that non-free software is required to meet legal
+obligations, let alone standard expectations, is completely unacceptable!
 
 
-For that matter (as a slightly off-topic personal grievance), using
-software well would be a huge improvement. Digital signatures have
-been around for more than 20 years, yet they have still not made it
-into mainstream use, and in fact some websites implement support for 
-*written signatures*!
-
-Indeed, any weighting of freedom against death is going to be a deeply
-uneasy one.
-
-
-For what it's worth, I would eschew a simple dichotomy to introduce a
-third option: providing tools and encouraging citizens to log location
-data for themselves, which then helps them help contact tracers. In
-countries where authorities are trusted and can easily reach their
-citizens, this seems like a very fair balance; civil liberties are
-respected without significantly hampering disease control efforts.
+However, speaking more broadly, using software in education is itself up for
+debate. That's not to say computers should be banned from classrooms or that
+schools shouldn't teach computing skills; rather, some uses seem to be less
+about genuine evidence of educational value and more about schools' (or
+governments', or technology companies') lust for novelty. Some prudence might
+improve education, save money, and make using free software a more viable
+option for students (and even teachers).
 
 
-Of course, if distrust is widespread or mass media are ineffective,
-this doesn't work, and in that case I'd argue limited surveillance
-requirements would be warranted. The key word, however, if limited:
-under absolutely no circumstances must even a single data entry be
-available to the police, or marketers, or the venue a person entered,
-or anyone except contact tracers working with the individual whose
-record it is if they are confirmed to be infected. It must also not
-include any data except that which can reliably be used to
-significantly improve tracing efforts- simply the fact that something
-could be mildly useful is not, in my opinion, an excuse for capturing
-it and putting it in a database. Of course, it must also be deleted
-once it is no longer potentially useful.
+For that matter (as a slightly off-topic personal grievance), using software
+well would be a huge improvement. Digital signatures have been around for more
+than 20 years, yet they have still not made it into mainstream use, and in fact
+some websites implement support for *written signatures*!
+
+Indeed, any weighting of freedom against death is going to be a deeply uneasy
+one.
 
 
-It's worth noting the irony that those areas were violating civil
-liberties would be least acceptable are also the kind that would have
-been more willing to do so.
+For what it's worth, I would eschew a simple dichotomy to introduce a third
+option: providing tools and encouraging citizens to log location data for
+themselves, which then helps them help contact tracers. In countries where
+authorities are trusted and can easily reach their citizens, this seems like a
+very fair balance; civil liberties are respected without significantly
+hampering disease control efforts.
 
-This is indeed a double injustice- as well as proprietary software,
-constant possession of a digital device (probably a tracking one) is
-made a prerequisite for many common activities as well.
+
+Of course, if distrust is widespread or mass media are ineffective, this
+doesn't work, and in that case I'd argue limited surveillance requirements
+would be warranted. The key word, however, if limited: under absolutely no
+circumstances must even a single data entry be available to the police, or
+marketers, or the venue a person entered, or anyone except contact tracers
+working with the individual whose record it is if they are confirmed to be
+infected. It must also not include any data except that which can reliably be
+used to significantly improve tracing efforts- simply the fact that something
+could be mildly useful is not, in my opinion, an excuse for capturing it and
+putting it in a database. Of course, it must also be deleted once it is no
+longer potentially useful.
+
+
+It's worth noting the irony that those areas were violating civil liberties
+would be least acceptable are also the kind that would have been more willing
+to do so.
+
+This is indeed a double injustice- as well as proprietary software, constant
+possession of a digital device (probably a tracking one) is made a prerequisite
+for many common activities as well.
 
 
 In relation to the right to modify contact tracing software, there is
-definitely a discussion to be had! Personally I see no reason to
-restrict that right; relying heavily on the validity of the data such
-systems produce seems doomed to fail for other reasons anyway, and
-fabricating a plausible dataset is far harder than just "forgetting
-your phone at home". 
+definitely a discussion to be had! Personally I see no reason to restrict that
+right; relying heavily on the validity of the data such systems produce seems
+doomed to fail for other reasons anyway, and fabricating a plausible dataset is
+far harder than just "forgetting your phone at home". 
 
-Definitely- let us hope that these measures die with the emergency
-they were a response to, and the others can be fought off successfully. 
+Definitely- let us hope that these measures die with the emergency they were a
+response to, and the others can be fought off successfully. 
 
 # Epilogue
 
-It's closed management in Shanghai again (March 2022). This is the second citywide lockdown. The last time was in 2020.
+<reference anchor='SHCM'
+target='https://www.theguardian.com/world/2022/apr/01/covid-lockdown-extended-for-parts-of-shanghai-as-city-struggles-to-control-omicron'>
+<front>
+        <title>On Free Software, Education in China and the COVID-19 Pandemic</title>
+        <author initials='M.' surname='Farrer' fullname='Martin Farrer'>
+            <organization>The Guardian</organization>
+        </author>
+        <date year='2021' month="October" />
+    </front>
+</reference>
 
-The delta variant of the SARS-CoV-2 is partly lethal, and highly contagious. It has wrecked havoc around the world, especially in Europe, causing hundreds of thousands of infections and thousands of deaths.[Citation needed] If it erupts in densely populated cities such as Shanghai, the consequences will be unimaginable.
+It's closed management in Shanghai again (March 2022). This is the second
+citywide lockdown. The last time was in 2020.
 
-There was a recent global pandemic of the Omicron variant. Originally I was terrified, I thought it was a "killer" variant similar to the Delta. However, after reading the relevant information, I found that the Omicron variant is extremely contagious but has quite low mortality rates, similar to the mortality rate of influenza. Therefore, some countries and regions have adopted a normal influenza policy, that is, only the close contacts of the patient are isolated at home, and several tests are completed during the incubation period. If the test results are all negative, the close contacts are allowed to resume normal life.
+The delta variant of the SARS-CoV-2 is partly lethal, and highly contagious. It
+has wrecked havoc around the world, especially in Europe, causing hundreds of
+thousands of infections and thousands of deaths.[Citation needed] If it erupts
+in densely populated cities such as Shanghai, the consequences will be
+unimaginable.
 
-Typically in Shanghai, imported cases detected at airports and train stations were easy to isolate and track. However, it was the poor management of the hotel that received the quarantined people that caused Omicron to spread like crazy. This also led the government to find that Omicron's asymptomatic infections accounted for a large proportion of infected people, which also showed that Omicron was less destructive.
+<reference anchor='OMCNLM'
+target='https://www.euro.who.int/en/health-topics/health-emergencies/pages/news/news/2022/01/the-omicron-variant-sorting-fact-from-myth'>
+<front>
+        <title>The Omicron variant: sorting fact from myth</title>
+        <author>
+            <organization>World Health Organization</organization>
+        </author>
+        <date year='2022' month="January" />
+    </front>
+</reference>
 
-On March 10, 2022, we were notified that the teaching activities of primary and secondary schools in Shanghai will be online. The effect of online teaching is still incomparable to offline teaching, even without considering the ethical concerns of software used (see section 1). I was surprised at the time, especially after finding out that Omicron wasn't a big deal. Shanghai actually adopted administrative measures of closed management. All residents must stay at home, not go out, or even go to the nearest store to buy food, in order to completely wipe out the new crown.
+There was a recent global pandemic of the Omicron variant. Originally I was
+terrified, I thought it was a "killer" variant similar to Delta. However,
+after reading the relevant information, I found that the Omicron variant is
+extremely contagious but has quite low mortality rates, slightly higher
+mortality rate of influenza.[@!OMCNLM]
+Therefore, some countries and regions have adopted
+a normal influenza policy, that is, only the close contacts of the patient are
+isolated at home, and several tests are completed during the incubation period.
+If the test results are all negative, the close contacts are allowed to resume
+normal life.
 
-That there are actully many workers in Shanghai. Much of their work cannot be done online from home. Lockdown means that they lose their source of income, their purchasing power declines, and ultimately lead to long-term economic problems; furthermore, because the city is now locked down, hospitals are not accepting new patients, and even basic services such as ambulances and rescues are very slow. Shanghai usually completes 80,000 surgical operations every day, including routine chronic disease treatment, myocardial infarction, stroke and other acute problems rescue, mild disease treatment, etc. This has caused thousands of stroke and myocardial infarction patients to lose their lives[Citation needed], and people with kidney disease are also approaching kidney failure because they cannot complete dialysis. In contrast, as of April 14, 13 of the 300,000 infected people in Shanghai were severely ill to COVID, none of the 13 had been vaccinated and all had serious underlying diseases. It can be said that this outbreak has minimal impact on people. In today's aging society, more patients with chronic diseases are delayed in treatment, with serious long-term consequences. Even for families with relatively stable lives, not being able to go out to exercise or buy food will affect our quality of life.
 
-Now some communities are gradually unlockdowned due to nobody testing positive in a long time, and people can finally go downstairs to stroll in the community, but they cannot leave the block.
+<reference anchor='HTLOB'
+target='http://www.eeo.com.cn/2022/0311/525034.shtml'>
+<front>
+        <title>Erroneous Treatment of Personnel in Huating Hotel causes outbreak</title>
+        <author>
+            <organization>The Economic Observer</organization>
+        </author>
+        <date year='2022' month="March" />
+    </front>
+</reference>
 
-It's hard to tell if a lot of extra deaths were related to the coronavirus lockdown. However, the government, after all, knows how many people die every day. If we compare the average death rate in 2019 with today's and find that the current rate is much higher, our policies need to be improved - because the virus itself cannot directly cause a large number of deaths. The ultimate purpose of our government's policies is to benefit the people, not to disprove other countries' slogans of "living with the virus" and to prove that they have the ability to eliminate the new crown.
+Typically in Shanghai, imported cases detected at airports and train stations
+were easy to isolate and track. However, it was the poor management of the
+hotel that received the quarantined people that caused Omicron to spread like
+crazy.[@HTLOB]
+This also led the government to find that Omicron's asymptomatic
+infections accounted for a large proportion of infected people, which also
+showed that Omicron was less destructive.
 
-Politicians often sacrifice the interests of the few at the expense of the many in an emergency. Kant's philosophical school criticizes this policy because there is no basic principle behind it, and it is easy to lead to the tyranny of the majority.
+<reference anchor='LDPL'
+target='https://www.shbsq.gov.cn/shbs/bsdt/20220414/337001.html'>
+<front>
+        <title>Policy regarding lockdowns</title>
+        <author>
+            <organization>Shanghai Government</organization>
+        </author>
+        <date year='2022' month="March" />
+    </front>
+</reference>
+<reference anchor='NCLS'
+target='http://www.chinadaily.com.cn/a/202203/11/WS622b0f91a310cdd39bc8c180.html'>
+<front>
+        <title>Shanghai schools pivot to e-learning following COVID-19 outbreak</title>
+        <author>
+            <organization>The Economic Observer</organization>
+        </author>
+        <date year='2022' month="March" />
+    </front>
+</reference>
 
-During World War II, however, Turing cracked the Engima used to encrypt communications in Nazi Germany. Churchill learned that the Nazis would attack the city of Coventry, but in order not to let the Nazis know that the British had cracked their code, and to ensure that more important German military information could be stolen in the future, Churchill chose not to inform the city. In order not to be discovered by the Germans and to protect greater military secrets, Churchill decided not to warn Coventry. Tens of thousands of British compatriots died in that bombing, but Britain helped the anti-fascist countries win World War II by stealing follow-up communications. Without this move, we are likely to be surrounded by a greater evil, namely fascism.
+On March 10, 2022, we were notified that the teaching activities of primary and
+secondary schools in Shanghai will be online.[@NCLS] The effect of online teaching is
+still incomparable to offline teaching, even without considering the ethical
+concerns of software used (see section 1). I was surprised at the time,
+especially after finding out that Omicron wasn't a big deal. Shanghai actually
+adopted administrative measures of closed management. All residents must stay
+at home, not go out, or even go to the nearest store to buy food, in order to
+completely wipe out SARS-CoV-2.[@LDPL]
 
-But this time, we are probably not sacrificing the interests of the few for the good of the many. This time, the severe rate is extremely low, and the strict blockade and prevention and control have led to more and wider trauma. We may well be sacrificing the interests of the many for the interests of the few. Nor can I think of any ethics and principles that compel us to do so.
+That there are actully many workers in Shanghai. Much of their work cannot be
+done online from home. Lockdown means that they lose their source of income,
+their purchasing power declines, and ultimately lead to long-term economic
+problems; furthermore, because the city is now locked down, hospitals are not
+accepting new patients, and even basic services such as ambulances and rescues
+are very slow. Shanghai usually completes 80,000 surgical operations every day,
+including routine chronic disease treatment, myocardial infarction, stroke and
+other acute problems rescue, mild disease treatment, etc. This has caused
+thousands of stroke and myocardial infarction patients to lose their
+lives[Citation needed], and people with kidney disease are also approaching
+kidney failure because they cannot complete dialysis. In contrast, as of April
+14, 13 of the 300,000 infected people in Shanghai were severely ill to COVID,
+none of the 13 had been vaccinated and all had serious underlying diseases. It
+can be said that this outbreak has minimal impact on people. In today's aging
+society, more patients with chronic diseases are delayed in treatment, with
+serious long-term consequences. Even for families with relatively stable lives,
+not being able to go out to exercise or buy food will affect our quality of
+life.[Multiple citations needed]
 
-The founder of classical liberalism, John Locke, believed that in order to protect their negative freedoms (such as the right to life and property rights), people ceded some of their freedoms and rights to the government, and the government replaced the powerless individuals to protect their rights. But when people shout "We need food" on the balcony, when someone is lying on the ground of the community with a simple fracture and the ambulance needs to be approved by the neighborhood committee and reported to the higher-level to enter the community, we need to rethink the policy.
+Now some communities are gradually unlockdowned due to nobody testing positive
+in a long time, and people can finally go downstairs to stroll in the
+community, but they cannot leave the block.
+
+It's hard to tell if a lot of extra deaths were related to the coronavirus
+lockdown. However, the government, after all, knows how many people die every
+day. If we compare the average death rate in 2019 with today's and find that
+the current rate is much higher, our policies need to be improved - because the
+virus itself cannot directly cause a large number of deaths. The ultimate
+purpose of our government's policies is to benefit the people, not to disprove
+other countries' slogans of "living with the virus" and to prove that they have
+the ability to eliminate COVID.
+
+Politicians often sacrifice the interests of the few at the expense of the many
+in an emergency. Kant's philosophical school criticizes this policy because
+there is no basic principle behind it, and it is easy to lead to the tyranny of
+the majority.
+
+During World War II, however, Turing cracked the Engima used to encrypt
+communications in Nazi Germany. Churchill learned that the Nazis would attack
+the city of Coventry, but in order not to let the Nazis know that the British
+had cracked their code, and to ensure that more important German military
+information could be stolen in the future, Churchill chose not to inform the
+city. In order not to be discovered by the Germans and to protect greater
+military secrets, Churchill decided not to warn Coventry. Tens of thousands of
+British compatriots died in that bombing, but Britain helped the anti-fascist
+countries win World War II by stealing follow-up communications. Without this
+move, we are likely to be surrounded by a greater evil, namely fascism.
+
+But this time, we are probably not sacrificing the interests of the few for the
+good of the many. This time, the severe rate is extremely low, and the strict
+blockade and prevention and control have led to more and wider trauma. We may
+well be sacrificing the interests of the many for the interests of the few. Nor
+can I think of any ethics and principles that compel us to do so.
+
+The founder of classical liberalism, John Locke, believed that in order to
+protect their negative freedoms (such as the right to life and property
+rights), people ceded some of their freedoms and rights to the government, and
+the government replaced the powerless individuals to protect their rights. But
+when people shout "We need food" on the balcony, when someone is lying on the
+ground of the community with a simple fracture and the ambulance needs to be
+approved by the neighborhood committee and reported to the higher-level to
+enter the community, we need to rethink the policy.
 
 
 # Conclusion
@@ -306,8 +424,9 @@ To be written.
 
 To be written.
 
-<reference anchor='THREAD' target='https://lists.gnu.org/archive/html/libreplanet-discuss/2021-10/msg00011.html'>
-    <front>
+<reference anchor='THREAD'
+target='https://lists.gnu.org/archive/html/libreplanet-discuss/2021-10/msg00011.html'>
+<front>
         <title>On Free Software, Education in China and the COVID-19 Pandemic</title>
         <author initials='A.' surname='Yu' fullname='Andew Yu'>
             <organization>The Second School affiliated to Fudan University</organization>
