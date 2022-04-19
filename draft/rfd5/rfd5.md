@@ -19,7 +19,7 @@ status = "informational"
 initials = "L."
 surname = "Rowe"
 fullname = "Leah Rowe"
-organization = "Minfree"
+organization = "Minifree"
   [author.address]
   email = "info@minifree.org"
   uri = "https://vimuser.org"
@@ -105,6 +105,8 @@ The above can also apply to speech. If you meet a new person, you **SHOULD** ask
 </reference>
 
 You will note that I've used Singular They, throughout this memo, when referring to an unknown person. I do this in almost all of my articles, and I do it in my speech. I do it in my thought. As you can see, it is perfectly natural and easy.
+
+# Epilogue
 
 What I'm asking is not controversial, but there are certain types of people who will see what I'm writing as an **attack** on their right to free expression.  On the contrary, I am simply advocating for the rights of those people whose existence has historically been suppressed. Which is to say: I'm advocating for more rights. **Equal** rights. The right to exist. This right is eroded when your existence is routinely questioned, and ignored, by everyone around you including friends, family, your school, your job... **this** is what I mean when I say **erasure**.
 
