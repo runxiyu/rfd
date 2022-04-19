@@ -7,6 +7,16 @@ Software and free society.
 
 The current RFD Editor is Andrew.
 
+The status of all RFDs may be viewed at /STATUS.tsv, a tab-seperated
+file containing the ID, name, the RFDs that it updates and obsoletes,
+the RFDs that updates and obsoletes itself, and status of RFDs.
+The status may be one of Experimental, Informational, Obsolete,
+Historic, or Best Current Practice.
+
+The current autoindex system provided by the Nginx Web server is very
+limiting.  Along with other utilities, a new system for building and
+publishing RFDs will be written.
+
 All documents first go through the DRAFT stage.  During this stage,
 a directory is created for the document with the "draft-" prefix.  The
 author establishes a group of people who discuss and revise the
@@ -20,12 +30,11 @@ As of now, the Libre Informational Board only has Andrew.  We
 desperately need more like-minded people for a more unbiased process.
 Please talk to us via the discussion channels (below)!
 
-RFDs are immutable, except for the "Updated By" and "Obsoleted By"
-lines in the top left of the document and an "ERRATA EXISTS" message.
-Minor problems must be corrected through publishing an ERRATA file and
-indicating ERRATA EXISTS in the RFD.  Large changes require new
-updating or obsoleting RFDs.  Such modifications should be made on the
-generated files, not by regenerating from a modified markup source.
+RFDs are immutable.  Minor problems must be corrected through publishing
+an ERRATA file and indicating ERRATA EXISTS in the RFD.  Large changes
+require new updating or obsoleting RFDs.  Such modifications should be
+made on the generated files, not by regenerating from a modified markup
+source.
 
 An informational RFDs describing the document series is upcoming.
 
