@@ -40,11 +40,11 @@ This document describes the author's viewpoint.  It may or may not represent the
 
 # Background
 
-In 1973 the Suprheme Court of the United States of America ruled seven-to-two in favor of Roe's rights to abortion against the state of Texas.[@!RVW]  Roe argued for abortion with "privacy", derived from the Fourth and Fourteenth Amendment of the US Constitution.  As the U.S. has a precedential judiciary system, this effectively legalizes abortion across the country.
+In 1973 the Supreme Court of the United States of America ruled seven-to-two in favor of Roe's rights to abortion against the state of Texas.[@!RVW]  Roe argued for abortion with "privacy", derived from the Fourth and Fourteenth Amendment of the US Constitution.  As the U.S. has a precedential judiciary system, this effectively legalizes abortion across the country.
 
 However, as Roe's case was argued for based on privacy rather than body autonomy or similar rights, it left a question into if abortion is indeed a right that women should have.  After all, if someone is accused of murder, the suspect's privacy is not a reason to not investigate the case further.  Those against abortion often believe that abortion is murder, and thus the privacy argument wouldn't stand long.
 
-In 2022, the Suprheme Court overturned this precedent[@!DVJ], and now the abortion rights of women in the united states are in a void.  This memo focuses on discussing the notion of abortion itself, and briefly comments on the decision of the Court.
+In 2022, the Supreme Court overturned this precedent[@!DVJ], and now the abortion rights of women in the united states are in a void.  This memo focuses on discussing the notion of abortion itself, and briefly comments on the decision of the Court.
 
 # "Fetus is life, thus abortion is murder."
 
