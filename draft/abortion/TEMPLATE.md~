@@ -1,0 +1,68 @@
+%%%
+title = "On Abortion"
+abbrev = "On Abortion"
+area = "Something"
+workgroup = "Something"
+submissiontype = "independent"
+ipr = "none"
+keyword = ["abortion"]
+#updates = [ <++> ]
+#date = 2003-04-01T00:00:00Z
+
+[seriesInfo]
+name = "Internet-Draft"
+value = "Request for Discussions RFDN"
+stream = "independent"
+status = "informational"
+
+[[author]]
+initials = "A."
+surname = "Yu"
+fullname = "Andrew Yu"
+#role = "author"
+organization = "YK Pao School"
+  [author.address]
+  email = "andrew@andrewyu.org"
+  uri = "https://www.andrewyu.org/"
+%%%
+
+.# Abstract
+
+The Supreme Court of the United States ruled in a 5-to-4 majority, "overturning" the precedent of Roe vs Wade, thus putting the legality of abortion into the hand of states.  Many states chose to ban abortion.
+
+.# Status of This Memo
+
+This document is currently in the DRAFT status.
+
+This document describes the author's viewpoint.  It may or may not represent the ideas of others, but is absolutely not guarenteed so.  Distribution of this memo is unlimited.
+
+
+{mainmatter}
+
+# Introduction
+
+In 1973, there was the famous Roe vs Wade case.  Abortion then became of "default" legality throughout the United States as courts are expected to respect *precedents*.
+
+Roe argued for her right to abortion through the right to privacy, while many believe that the fundemental issue with abortion bans is not how the mother should have privacy with regard to her fetus, but actually body autonomy.  This caused a gap in how abortion was viewed, because the court only ruled for it in a matter of privacy, not a fundemental right based on the notion of life.
+
+On June 24, 2022, the Supreme Court ruled against the precedent, thus leaving the decision whether to allow abortion to individual states.  Some believe that this is a good thing because the representatives elected by people decide how their state would work---but that doesn't present inherent good.<!-- TODO -->
+
+Some people believe that a fetus is life, and thus abortion is murder.  I agree that fetus is life, but I do not agree that abortion is murder.  Imagine that you see a poor person, homeless, sleeping on the street.  You give them food and shelter, and you continue to do so for a long time.  But one day you decided to not support them anymore, and they die of starvation or the cold.  This is not murder.  If there exists a person who must live inside someone, taking the host's resources to survive, the host has the right to say "no", because it is the host's body that is into play here, and thus the host has the right to say no.  This is the case with abortion: A person lives inside a host.  Merely having the fetus being a life doesn't give the host responsibility to give birth.  This is especially inconsistent with the common Republican stance, minimizing things like "social welfare" and "social security".
+
+However, there is a difference worth noting.  In the case of helping a homeless person, the help is truely voluntary, as the helper is simply a stranger to the helpee.  However in case of a mother and a fetus, and assuming that the mother knowingly and voluntarily chose her pregnancy, it may feel like the mother has assumed the responsibility of raising the fetus.  Indeed no physical contract was signed, that'd be quite impossible to a fetus, but parents are also required to care for their children until their children become adult or voluntarily leave their parents and stuff without explicit contract, what matters is where this responsibility starts?
+
+<!--
+<reference anchor='<++>' target='<++>'>
+    <front>
+        <title><++></title>
+        <author initials='<++>' surname='<++>' fullname='<++>'>
+            <organization><++></organization>
+            <address>
+                <email><++>@<++></email>
+                <uri>https://<++></uri>
+            </address>
+        </author>
+        <date year='<++>' month="<++>" />
+    </front>
+</reference>
+-->
