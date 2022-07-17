@@ -52,7 +52,7 @@ Some people believe that because fetus is human life, and abortion is nonvolunta
 
 This reasoning is flawed---nonvoluntary termination of human life, even when the decision-maker understands the consequence of their action, may or not be murder.
 
-# Involuntary termination of life may be non-murder.
+# Involuntary termination of life isn't always murder.
 
 Consider yourself an average person in the United States.  You live on paychecks and you're living an average life in a comfortable house.  You noticed a poor person, without food, proper clothes, or shelter, sleeping in the street, almost frozen to death.  You took them home, giving them food, clothes and shelter.  But one day, out of whatever reason you decided to stop supporting that person and remove them from the house back onto the street.  You understanded that they will have a hard time finding foot, shelter and clothes.  They deceased because of the cold.
 
@@ -62,18 +62,22 @@ The poor person was life, and your decision did cause their decession.  But is t
 
 There is a subtle, but eventually significant difference between helping a person down the street and voluntary pregnency. (Involuntary pregnency is basically "alright, here comes a person at your doorstep, you MUST help them and keep them alive", there's not much to discuss there in my opinion.)
 
-In the last example, the ethicalness of terminating support would be different if you and the person receiving help signed an explicit contract giving you the responsibility to help them unless/until a condition is true but you terminate the support when the condition is false.  Indeed a fetus did not sign a contract with the mother, but similarly, children not sign a contract with their parents but their parents are somehow obligated to take care of their children.
+In the last example, the ethicalness of terminating support would be different if you and the person receiving help signed an explicit contract giving you the responsibility to help them but you terminate the support when the contract is still valid.
 
-# When is life meaningful?
+Indeed, the fetus did not sign a contract with the mother that obligates the mother to carry to term.  But similarly, children don't sign contracts with their parents to take care of them, but we consider parents who don't take care of their children and such to be child abuse.  How are they different?
 
-It boils down
+# The Difference Between Fetus and Children
+
+Fetus do not have a proper perception of the world.  Until late terms of pregnency fetus are unable to think, while children feel, learn and experience the world, building emotions and feelings with others and the world around them.
+
+The value of life depends on its definition.  A scientific definition of life which includes bacteria, fungi, parasites, plants, animals and many other forms of life doesn't seem inherently valuable to us---almost all of us don't feel bad killing bacteria with an ultraviolet lamp, don't feel bad killing plants for consumption, and don't feel bad stepping on a mosquito.  Many of us don't feel bad consuming animals for food.
 
 {backmatter}
 
 <reference anchor='RVW' target='https://www.law.cornell.edu/supremecourt/text/410/113'>
     <front>
         <title>Jane ROE, et al., Appellants, v. Henry WADE.</title>
-	<author></author>
+        <author></author>
         <date year='1973' month="1" />
     </front>
 </reference>
@@ -82,7 +86,7 @@ It boils down
 <reference anchor='DVJ' target='https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf'>
     <front>
         <title>Dobbs, State Health Officer of the Mississippi Department of Health, et al. v. Jackson Women’s Health Organization, et al.</title>
-	<author></author>
+        <author></author>
         <date year='2022' month="6" />
     </front>
 </reference>

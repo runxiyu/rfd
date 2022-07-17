@@ -4,7 +4,7 @@
 
 Something                                                          A. Yu
                                                            YK Pao School
-                                                            13 July 2022
+                                                            18 July 2022
 
 
                               On Abortion
@@ -29,9 +29,9 @@ Table of Contents
 
    1.  Background  . . . . . . . . . . . . . . . . . . . . . . . . .   1
    2.  "Fetus is life, thus abortion is murder." . . . . . . . . . .   2
-   3.  Involuntary termination of life may be non-murder.  . . . . .   2
+   3.  Involuntary termination of life isn't always murder.  . . . .   2
    4.  Non-explicit Contract . . . . . . . . . . . . . . . . . . . .   2
-   5.  When is life meaningful?  . . . . . . . . . . . . . . . . . .   3
+   5.  The Difference Between Fetus and Children . . . . . . . . . .   3
    6.  Normative References  . . . . . . . . . . . . . . . . . . . .   3
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   3
 
@@ -81,7 +81,7 @@ Yu                            Informational                     [Page 1]
    even when the decision-maker understands the consequence of their
    action, may or not be murder.
 
-3.  Involuntary termination of life may be non-murder.
+3.  Involuntary termination of life isn't always murder.
 
    Consider yourself an average person in the United States.  You live
    on paychecks and you're living an average life in a comfortable
@@ -116,15 +116,29 @@ Yu                            Informational                     [Page 2]
 
    In the last example, the ethicalness of terminating support would be
    different if you and the person receiving help signed an explicit
-   contract giving you the responsibility to help them unless/until a
-   condition is true but you terminate the support when the condition is
-   false.  Indeed a fetus did not sign a contract with the mother, but
-   similarly, children not sign a contract with their parents but their
-   parents are somehow obligated to take care of their children.
+   contract giving you the responsibility to help them but you terminate
+   the support when the contract is still valid.
 
-5.  When is life meaningful?
+   Indeed, the fetus did not sign a contract with the mother that
+   obligates the mother to carry to term.  But similarly, children don't
+   sign contracts with their parents to take care of them, but we
+   consider parents who don't take care of their children and such to be
+   child abuse.  How are they different?
 
-   It boils down
+5.  The Difference Between Fetus and Children
+
+   Fetus do not have a proper perception of the world.  Until late terms
+   of pregnency fetus are unable to think, while children feel, learn
+   and experience the world, building emotions and feelings with others
+   and the world around them.
+
+   The value of life depends on its definition.  A scientific definition
+   of life which includes bacteria, fungi, parasites, plants, animals
+   and many other forms of life doesn't seem inherently valuable to us
+   ---almost all of us don't feel bad killing bacteria with an
+   ultraviolet lamp, don't feel bad killing plants for consumption, and
+   don't feel bad stepping on a mosquito.  Many of us don't feel bad
+   consuming animals for food.
 
 6.  Normative References
 
@@ -143,20 +157,6 @@ Author's Address
    YK Pao School
    Email: andrew@andrewyu.org
    URI:   https://www.andrewyu.org/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
